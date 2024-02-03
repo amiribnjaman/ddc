@@ -5,7 +5,7 @@ use App\database\Database;
 
 class Add{
 
-	public function add_doctor($data){
+	public static function add_doctor($data){
 		$doctor_name   = $data['doctor_name'];
 		$department    = $data['department'];
 		$qualification = $data['qualification'];
@@ -22,7 +22,7 @@ class Add{
 
 		if(!empty($doctor_name && $department && $qualification && $position && $visiting_hour)){
 			$query = "INSERT INTO `doctors`(`doctors_name`, `department`, `qualification`, `position`, `visiting_hour`) VALUES ('$doctor_name','$department','$qualification','$position','$visiting_hour')";
-			$doctor_insert = mysqli_query(Database::databaseconn(),$query);
+			$doctor_insert = mysqli_query(Database::databaseconn(), $query);
 			if($doctor_insert){
 				$msg = "<h5 class='btn btn-success form-control'>Data insert success!</h5>";
 				return $msg;

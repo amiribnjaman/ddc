@@ -4,7 +4,7 @@ namespace App\database;
 
 class Database{
 
-	public function databaseconn(){
+	public static function databaseconn(){
 		$host     = 'localhost';
 		$username = 'root';
 		$password = '';
