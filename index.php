@@ -95,6 +95,8 @@ if(isset($_POST['appointment'])){
 			<!-----------FAQ -->
 			<div class='col-sm mr-4'>
 				<h3>FAQ's</h3>
+				<img src="./assets/images/border.svg" alt="">
+
 				<div class="accordion">
 					
 				<div class="section">
@@ -134,6 +136,7 @@ if(isset($_POST['appointment'])){
 			<!-------------WHY US------->
 			<div class='col-sm ml-4'>
 				<h3>WHY US?</h3>
+				<img src="./assets/images/border.svg" alt="">
 				<div>
 					<div>
 					<h5>Great Infrastructure</h5>
@@ -148,11 +151,7 @@ if(isset($_POST['appointment'])){
 					<p>Nunc at pretium est curabitur commodo leac est venenatis egestas sed aliquet auguevelit.</p>
 				</div>
 					<div>
-					<h5>Experienced Doctors</h5>
-					<p>Nunc at pretium est curabitur commodo leac est venenatis egestas sed aliquet auguevelit.</p>
-				</div>
-					<div>
-					<h5>Skilled Technician</h5>
+					<h5>Experienced Doctors & Skilled</h5>
 					<p>Nunc at pretium est curabitur commodo leac est venenatis egestas sed aliquet auguevelit.</p>
 				</div>
 				</div>
@@ -160,9 +159,10 @@ if(isset($_POST['appointment'])){
 		</section>
 		<!-------------------------WHY US with FAQ section end-------------------------->
 
-		<hr>
+		<!-- <hr> -->
 				<!--------------------------------Notice Section------------------------>
-				<div class="row notice_area">
+				<div class='notice-section'>
+					<div class="row notice_area">
 					<div class="col-sm-4">
 						<div class="notice">
 							<h3>Important <br><strong>Notice</strong></h3>
@@ -192,11 +192,14 @@ if(isset($_POST['appointment'])){
 					</div>
 					</div>
 				</div>
+				</div>
 
 
 		<!--------------------Hints section start-------------------------->
 		<section id="hints_section">
 			<h3 class="text-center">Doctor's <strong>Appointment</strong></h3>
+			<img src="./assets/images/border.svg" alt="">
+
 			<p class="text-center">Our hospital has a bunch of experienced doctors who are always engaged to served you. And we have been in your yard for almost a decade with the help of those who have become a trusted hospital to serve you. <br> So, You fill out the form below to make a doctor's appointment. </p>
 
 			<!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempora dolor facilis voluptates libero. <span> Provident dolore beatae quod exercitationem sequi quas at illum consequatur accusamus, quaerat deleniti, doloribus aspernatur......</span> -->
@@ -326,7 +329,7 @@ if(isset($_POST['appointment'])){
 		</section>
 		<!----------------------Doctors meet End---------------------->
 		<!-------------------latest technology start------------------->
-		<section id="latest_technology">
+		<section class='latest-technology' id="latest_technology">
 			<div class="technology_content">
 				<div class="container">
 					<div class="row">
