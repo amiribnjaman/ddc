@@ -1,0 +1,1171 @@
+@media only screen and (max-width:1200px) {
+     #hints_section h4 {
+        font-size: 19px;
+    }
+    #hints_section a {
+        min-height: 85px;
+    }
+    /* #hints_section .container {margin-left: 3%;} */
+    #nav_middle_section .col-md-3:last-child {
+        margin: 10px 0 10px;
+    }
+}
+
+
+/*----------------lattops and desktop----------------*/
+
+@media only screen and (min-width:1025px) and (max-width:1100px) {
+    #hints_section h4 {
+        width: 65%;
+    }
+    #hints_section span i {
+        margin-top: 14px;
+    }
+    #hints_section h4 {
+        font-size: 18px;
+    }
+    #hints_section span {
+        width: 25%;
+    }
+}
+
+
+/*----------------tablets and ipads----------------*/
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    #hints_section h4 {
+        text-align: left;
+        padding-top: 0;
+        font-size: 17px
+    }
+    .fa-2x {
+        font-size: 32px;
+    }
+    #hints_section span {
+        width: 25%;
+    }
+    .branding_con {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    /* #hints_section .container {margin-left: 3%;} */
+    /* #nav_middle_section .col-md-3:last-child {
+        margin: 10px 0 10px;
+    } */
+    #nav_middle_section .col-md-3 {
+        max-width: 60%;
+        flex: 45%;
+    }
+    #nav_middle_section .col-md-3:last-child {
+        margin: 0;
+    }
+    #nav_middle_section .col-md-3:nth-child(1) {
+        margin-bottom: 10px;
+    }
+    #nav_middle_section .col-sm-10 {
+        padding-left: 15%;
+    }
+    .container {
+        padding-left: 5%;
+    }
+    #hints_section .row {
+        margin-left: -40px;
+    }
+    .col-sm-5 {
+        flex: 0 0 48.666667%;
+        max-width: 50.667%;
+    }
+    .nav_top .col-sm-3:nth-child(1) {
+        min-width: 35%
+    }
+    .nav_top .col-sm-3:nth-child(2) {
+        min-width: 30%
+    }
+    .nav_top .col-sm-3:nth-child(3) {
+        max-width: 10%
+    }
+    #services_section .col-sm-1 {
+        display: none
+    }
+    .technology_content .col-sm-3::after {
+        right: -5px;
+    }
+    /*----------------------------------PATIENTS PAGE--------------------------------*/
+    #laptop_device {
+        display: none;
+    }
+    #mobile_device {
+        display: block;
+    }
+}
+
+
+/*----------------small tablets and mobile----------------*/
+
+@media only screen and (min-width:481px) and (max-width:575px) {
+    .row {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .col-sm-2 {
+        padding-top: 10px;
+    }
+    .col-sm-5 {
+        flex: 0 0 81.667%;
+        max-width: 80.667%;
+        margin-bottom: 10px;
+    }
+    #nav_middle_section .col-md-3 {
+        max-width: 60%;
+        flex: 45%;
+    }
+    #hints_section {
+        min-height: 310px;
+    }
+    .branding_con h6 {
+        font-size: 17px;
+    }
+    .branding_con a {
+        font-size: 16px;
+    }
+    .branding_con .email {
+        font-size: 14px;
+    }
+    .branding_con:last-child {
+        margin-top: 10px
+    }
+    .nav_area {
+        margin-top: 0px;
+    }
+    #hints_section a {
+        margin-bottom: 10px;
+        min-height: 79px;
+    }
+    #hints_section h4 {
+        font-size: 18px
+    }
+    #services_section {
+        margin-top: 45px;
+    }
+    #doctor_meet a {
+        display: block;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    #short_description .col-sm-4 {
+        flex: 1 0 100.333%;
+        max-width: 100.333333%;
+    }
+    #short_description .col-sm-8 {
+        flex: 1 0 100.333%;
+        max-width: 100.333333%;
+    }
+    #doctor_meet {
+        padding-bottom: 0;
+    }
+    /* .nav_top .col-sm-3:nth-child(1){min-width:37%}
+	.nav_top .col-sm-3:nth-child(2){min-width:28%}
+	.nav_top .col-sm-3:nth-child(3){max-width:10%} */
+    #services_section .col-sm-1 {
+        display: none
+    }
+    .technology_content .col-sm-3::after {
+        right: -5px;
+    }
+    .nav_area {
+        margin-top: 0px;
+        margin-left: 5%;
+        max-width: 70%;
+    }
+    #hints_section {
+        min-height: 100%;
+    }
+    .col-sm-5 {
+        margin: auto
+    }
+    .technology_content h3 {
+        font-size: 21px;
+    }
+    .technology_content .col-sm-3::after {
+        display: none;
+    }
+    .nav_top .col-sm-3:first-child {
+        display: none;
+    }
+    .nav_top .col-sm-3:nth-child(2) {
+        margin-left: auto;
+        width: 175px;
+    }
+    .nav_top .col-sm-3:last-child {
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        margin-top: 20px;
+    }
+    .nav_top ul {
+        margin-left: 20px;
+    }
+    .nav_top .social_links li a {
+        padding: 10px 8px;
+    }
+    .btn-success {
+        width: 100%;
+    }
+    .nav_top {
+        position: relative
+    }
+    .logo_area a {
+        position: absolute;
+        top: -65px;
+        left: 16px;
+        font-size: 21px;
+        letter-spacing: -2px;
+    }
+    .logo {
+        display: none
+    }
+    #nav_middle_section .col-md-6 {
+        display: none
+    }
+    #nav_middle_section {
+        min-height: 56px;
+    }
+    #slider_section .carousel-item {
+        height: 400px;
+    }
+    #hints_section .col-sm-2 {
+        display: none
+    }
+    .services {
+        padding: 0px 0 30px 0;
+    }
+    .services h3::after {
+        width: 110px;
+        top: 4%;
+    }
+    .notice_con .thumbnail_img {
+        margin-top: 20px;
+    }
+    .notice_area .notice {
+        margin: 0 0 0 0;
+    }
+    .notice br {
+        display: none;
+    }
+    .notice::after {
+        top: 66%;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 2px;
+        width: 101px;
+    }
+    .notice_area a span {
+        margin-left: 9px;
+    }
+    #doctor_meet h4 {
+        text-align: center;
+    }
+    #doctor_meet p {
+        font-size: 18px;
+    }
+    .technology_content h3 {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .technology_content h3 {
+        text-align: center;
+    }
+    .nav_top .col-sm-3:nth-child(3) {
+        display: none;
+    }
+    /*----------------------------------PATIENTS PAGE--------------------------------*/
+    #laptop_device {
+        display: none;
+    }
+    #mobile_device {
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 10px;
+    }
+    #patient_section h1 {
+        text-align: center;
+        font-size: 24px;
+        width: 100%
+    }
+    #mobile_device a span {
+        top: 26px;
+        position: absolute;
+        left: 50px;
+    }
+    .topbar .dropdown .dropdown-menu {
+        width: calc(100% - 1.5rem);
+        right: -6.25rem;
+    }
+    a.d-sm-inline-block.btn.btn-sm.btn.shadow-sm {
+        position: absolute;
+        top: 20px;
+        right: 10px
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width: 767px) {
+    .btn-success {
+        width: 100%;
+    }
+    .nav_top .col-sm-3:last-child {
+        width: 100%;
+    }
+    #nav_middle_section {
+        display: block;
+    }
+    #nav_middle_section {
+        max-height: 82px;
+    }
+    .logo_area {
+        margin-top: -14px;
+        margin-left: 11px;
+    }
+    .logo_area a {
+        top: 55px;
+        left: 8px;
+    }
+    .nav_top .col-sm-3:first-child {
+        display: block;
+        min-width: 44%
+    }
+    .nav_top .col-sm-3:nth-child(3) {
+        display: none;
+    }
+    .nav_top .col-sm-3:nth-child(2) {
+        margin-left: 0;
+        min-width: 5%;
+        margin-left: auto;
+    }
+    .nav_top .col-sm-3:last-child {
+        min-width: 224px;
+        right: 2%;
+        position: absolute;
+        top: 80px;
+    }
+    #nav_middle_section .nav_area {
+        display: none;
+    }
+    nav_middle_section .nav_area .ell_number {
+        display: block;
+    }
+    .nav_top .col-sm-3:nth-child(2) ul {
+        float: right;
+    }
+    .notice_area a i {
+        margin-left: -20px;
+        margin-top: 2px;
+    }
+    .notice_area a span {
+        margin-left: 7px;
+    }
+    .technology_content .col-sm-3::after {
+        right: 1px;
+    }
+    .nav_top .col-sm-3:nth-child(3) {
+        display: block;
+        min-width: 40%;
+        position: absolute;
+        top: 10px;
+        left: 38%;
+    }
+    .nav_top .col-sm-3:nth-child(3) a {
+        color: #000;
+        font-weight: 505;
+    }
+    /*----------------------------------PATIENTS PAGE--------------------------------*/
+    #laptop_device {
+        display: none;
+    }
+    #mobile_device {
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 10px;
+    }
+    #patient_section h1 {
+        text-align: center;
+        font-size: 24px;
+        width: 100%
+    }
+    #mobile_device a span {
+        top: 26px;
+        position: absolute;
+        left: 50px;
+    }
+    .topbar .dropdown .dropdown-menu {
+        width: calc(100% - 1.5rem);
+        right: -6.25rem;
+    }
+    a.d-sm-inline-block.btn.btn-sm.btn.shadow-sm {
+        position: absolute;
+        top: 20px;
+        right: 10px
+    }
+}
+
+
+/*----------------smart phones----------------*/
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .nav_top .social_area {
+        display: none
+    }
+    .top_nav_item {
+        max-width: 30%;
+    }
+    .branding_con {
+        display: none;
+    }
+    #nav_middle_section .col-sm-2 {
+        display: none
+    }
+    .nav_area {
+        margin-top: 0;
+    }
+    .patient_portal_button {
+        padding: 20px 35%;
+    }
+    #nav_middle_section .col-md-3 {
+        padding-left: 5%
+    }
+    #nav_middle_section {
+        min-height: 105px;
+    }
+    #slider_section {
+        display: none
+    }
+    #hints_section .row {
+        margin-top: 40px;
+        z-index: 0;
+    }
+    #hints_section a {
+        min-height: 70px;
+        margin-bottom: 10px;
+    }
+    #hints_section {
+        min-height: 370px;
+    }
+    #services_section {
+        padding-top: 20px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .services a {
+        margin-bottom: 10px;
+    }
+    #services_section {
+        margin-top: 100px;
+    }
+    .services .col-sm-5 {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #short_description,
+    #doctor_meet,
+    #footer_section,
+    #latest_technology {
+        text-align: center;
+    }
+    #doctor_meet a {
+        display: block;
+        margin-bottom: 10px;
+    }
+    #doctor_meet .buttons {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #doctor_meet p {
+        font-size: 17px;
+    }
+    .services a i {
+        margin-left: -55px;
+    }
+    .services a span {
+        margin-right: 51px;
+        text-align: left
+    }
+    #testimonial_section .testimonial_one {
+        margin-bottom: 10px;
+    }
+    .services .col-sm-5>a {
+        padding: 15px 50px;
+    }
+    .nav_top .col-sm-3:first-child {
+        display: none;
+    }
+    .nav_top .col-sm-3:nth-child(2) {
+        margin-left: auto;
+        width: 175px;
+    }
+    .nav_top .col-sm-3:last-child {
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left: 0px;
+        margin-top: 20px;
+    }
+    .nav_top ul {
+        margin-left: 20px;
+    }
+    .nav_top .social_links li a {
+        padding: 10px 8px;
+    }
+    .btn-success {
+        width: 100%;
+    }
+    .nav_top {
+        position: relative
+    }
+    .logo_area a {
+        position: absolute;
+        top: -65px;
+        left: 16px;
+        font-size: 21px;
+        letter-spacing: -2px;
+    }
+    .logo {
+        display: none
+    }
+    #nav_middle_section .col-md-6 {
+        display: none
+    }
+    #nav_middle_section {
+        min-height: 56px;
+    }
+    #main_nav {
+        width: 100%;
+        background: #459b97;
+        height: 65px;
+    }
+    #hints_section {
+        min-height: 800px;
+    }
+    #hints_section p span {
+        display: none
+    }
+    #hints_section form {
+        margin-left: 0
+    }
+    .services {
+        padding: 6px 0 30px 0;
+    }
+    .services h3::after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 105px;
+        height: 1px;
+        top: 55px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .services p {
+        margin-top: 40px;
+    }
+    .notice::after {
+        display: non;
+    }
+    .notice_area .notice {
+        margin: 6% 0 0 0%;
+    }
+    .notice::after {
+        display: block;
+        top: 84%;
+        right: 50%;
+        height: 2px;
+        width: 90px;
+        transform: translate(50%);
+    }
+    .technology_content p {
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+    .technology_content h3 {
+        width: 50%;
+        margin: auto;
+    }
+    .technology_content .col-sm-3::after {
+        top: 70px;
+        right: 50%;
+        height: 2px;
+        width: 90px;
+        transform: translate(50%)
+    }
+    #doctor_meet h4 {
+        font-size: 23px;
+        text-align: center;
+    }
+    #short_description h4 {
+        font-size: 18px;
+        letter-spacing: normal;
+        margin-bottom: 20px;
+    }
+    .notice h3,
+    .technology_content h3 {
+        font-size: 26px;
+    }
+    .notice_con .thumbnail_img {
+        display: none;
+    }
+    .thumbnail_con a {
+        font-size: 16px;
+    }
+    .notice_area {
+        padding: 0px 0;
+    }
+    #hints_section {
+        min-height: 933px;
+    }
+    .services {
+        padding: 5px 0 30px 0;
+    }
+    .services h3::after {
+        top: 50px
+    }
+    .services p {
+        font-size: 14px;
+    }
+    #hints_section {
+        margin: 55px 0 50px 0;
+    }
+    .nav_top .col-sm-3:nth-child(3) {
+        display: none;
+    }
+
+    /*----------------------------------PATIENTS PAGE--------------------------------*/
+    #laptop_device {
+        display: none;
+    }
+    #mobile_device {
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 10px;
+    }
+    #patient_section h1 {
+        text-align: center;
+        font-size: 24px;
+        width: 100%
+    }
+    #mobile_device a span {
+        top: 26px;
+        position: absolute;
+        left: 50px;
+    }
+    .topbar .dropdown .dropdown-menu {
+        width: calc(100% - 1.5rem);
+        right: -6.25rem;
+    }
+    a.d-sm-inline-block.btn.btn-sm.btn.shadow-sm {
+        position: absolute;
+        top: 20px;
+        right: 10px
+    }
+}
+
+
+/*----------------Common menu bar-------------*/
+
+@media only screen and (min-width:200px) and (max-width:1024px) {
+    html {
+        overflow-x: hidden;
+    }
+    .collapse:not(.show) {
+        display: block;
+    }
+    #main_nav {
+        width: 100%;
+        background: #459b97;
+        height: 65px;
+    }
+    .form-inline {
+        display: none;
+    }
+    #main_nav .form-control,
+    .fa-search {
+        display: none;
+    }
+    #main_nav .humberger {
+        width: 35px;
+        height: 40px;
+        background: transparent;
+        top: 18px;
+        right: 10px;
+        ;
+        position: absolute;
+        cursor: pointer;
+    }
+    #main_nav .humberger .bar1 {
+        width: 30px;
+        height: 2px;
+        background: #fff;
+        top: 5px;
+        right: 0px;
+        position: absolute;
+        transition: .3s;
+    }
+    #main_nav .humberger .bar2 {
+        width: 30px;
+        height: 2px;
+        background: #fff;
+        top: 13px;
+        right: 0px;
+        position: absolute;
+        transition: .1s;
+    }
+    #main_nav .humberger .bar3 {
+        width: 30px;
+        height: 2px;
+        background: #fff;
+        top: 21px;
+        right: 0px;
+        position: absolute;
+        transition: .3s;
+    }
+    #main_nav .navbar ul li:hover {
+        border-bottom: 1px solid #459b97;
+    }
+    .collapse {
+        width: 100%;
+        background: #00984a;
+    }
+    #main_nav .navbar ul {
+        width: 100%;
+        max-height: 300px;
+        overflow-x: hidden;
+        overflow-y: visible;
+        display: none;
+        top: 56px;
+        right: -15px;
+        position: absolute;
+        background: #459b97;
+        width: 80%;
+        z-index: -200;
+    }
+    #main_nav .navbar ul li a {
+        margin-left: auto;
+    }
+    #main_nav.navbar ul li {
+        padding: 13px 15px;
+    }
+    .animate .bar1 {
+        transform: rotate(-41deg) translate(-5px, 10px);
+    }
+    .animate .bar2 {
+        opacity: 0;
+    }
+    .animate .bar3 {
+        transform: rotate(40deg) translate(-1px, -6px);
+    }
+}
+
+
+/*----------------small mobile----------------*/
+
+@media only screen and (min-width:200px) and (max-width:319px) {
+    .nav_top .col-sm-3:first-child {
+        display: none;
+    }
+    .nav_top .col-sm-3:nth-child(2) {
+        margin-left: auto;
+        width: 175px;
+    }
+    .nav_top .col-sm-3:last-child {
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left: 0px;
+        margin-top: 20px;
+    }
+    .nav_top ul {
+        margin-left: 20px;
+    }
+    .nav_top .social_links li a {
+        padding: 10px 8px;
+    }
+    .btn-success {
+        width: 100%;
+    }
+    .nav_top {
+        position: relative
+    }
+    .logo_area a {
+        position: absolute;
+        top: -65px;
+        left: 16px;
+        font-size: 21px;
+        letter-spacing: -2px;
+    }
+    .logo {
+        display: none
+    }
+    #nav_middle_section .col-md-6 {
+        display: none
+    }
+    #nav_middle_section {
+        min-height: 56px;
+    }
+    #main_nav {
+        width: 100%;
+        background: #459b97;
+        height: 65px;
+    }
+    #hints_section {
+        min-height: 850px;
+    }
+    #hints_section h3::after {
+        top: 80px;
+        left: 50%;
+        transform: translate(-50%);
+        width: 84px;
+    }
+    #hints_section p {
+        font-size: 13.5px
+    }
+    #hints_section p span {
+        display: none
+    }
+    #hints_section .row {
+        margin-top: 20px;
+    }
+    #hints_section .row .col-sm-2 {
+        display: none
+    }
+    .services {
+        padding: 50px 0 30px 0;
+    }
+    #services_section {
+        margin-top: 30px
+    }
+    .services h3::after {
+        width: 85px;
+        height: 1px;
+        top: 3.5%;
+    }
+    /* .services::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 105px;
+    height: 1px;
+    background: #000;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);} */
+    .services p {
+        margin-top: 32px;
+    }
+    .services_con p {
+        font-size: 13px;
+    }
+    .notice::after {
+        display: non;
+    }
+    .notice_area .notice {
+        margin: 6% 0 0 0%;
+    }
+    .notice::after {
+        display: block;
+        top: 84%;
+        right: 124px;
+        height: 2px;
+        width: 105px;
+    }
+    #short_description p {
+        font-size: 13px;
+    }
+    #doctor_meet p {
+        font-size: 15px;
+    }
+    .technology_content p {
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+    .technology_content .col-sm-3::after {
+        top: 55px;
+        right: 116px;
+        height: 2px;
+        width: 143.8px;
+    }
+    .carousel {
+        display: none;
+    }
+    .notice h3 {
+        text-align: center;
+    }
+    .notice::after {
+        right: 50%;
+        transform: translate(50%);
+    }
+    #doctor_meet a {
+        display: block;
+        margin: 10px 0 0 0;
+        text-align: center;
+    }
+    .technology_content h3 {
+        text-align: center;
+    }
+    .technology_content .col-sm-3::after {
+        top: 77px;
+        right: 50%;
+        width: 94.8px;
+        transform: translate(50%);
+    }
+    .technology_content h3 {
+        margin-left: 0px;
+    }
+    #latest_technology {
+        padding: 0px 0 20px 0;
+        text-align: center;
+    }
+    #footer_section {
+        text-align: center;
+    }
+    #hints_section {
+        margin: 55px 0 50px 0;
+    }
+    #hints_section h3,
+    .notice h3 {
+        font-size: 24px;
+    }
+    .notice_area a span {
+        font-size: 13px;
+        margin-right: 14px;
+    }
+    .notice_con .thumbnail_img {
+        display: none;
+    }
+    .notice::after {
+        width: 70px
+    }
+    #doctor_meet h4 {
+        font-size: 23px;
+        text-align: center;
+    }
+    #hints_section h3::after {
+        top: 6%;
+    }
+    .nav_top .col-sm-3:nth-child(3) {
+        display: none;
+    }
+    #testimonial_section .testi_contain h3 {
+        font-size: 24px;
+    }
+    #short_description h4 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    /*---------------------------------------PAGES-------------------------------------*/
+    /*----------------------------------DOCTORS PAGE--------------------------------*/
+    #doctors_section #doctors_header span {
+        display: none;
+    }
+    #doctors_section h4 {
+        font-size: 19px;
+    }
+    #doctors_section .doctors_heading h3 {
+        font-size: 28px;
+        margin: auto;
+    }
+    #doctors_section .doctors_heading .search {
+        display: none;
+    }
+    .doctor_box .doctor_image {
+        margin: auto;
+        margin-bottom: 13px;
+    }
+    .doctor_box .doctor_info p {
+        font-size: 14px;
+    }
+    .doctor_box .doctor_info h5 {
+        font-size: 15px;
+    }
+    .doctor_box .doctor_info h5 small {
+        font-size: 10px;
+    }
+    .doctor_box .doctor_info .doctor_appointment {
+        margin-bottom: 25px
+    }
+    .doctor_box .row::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 1px;
+        background: #eee;
+    }
+    .doctor_box {
+        margin-top: 20px;
+    }
+    /*----------------------------------SERVICES PAGE--------------------------------*/
+    #services_header h4 {
+        font-size: 17px;
+    }
+    #services_header span {
+        display: none;
+    }
+    #services_section .services {
+        padding: 10px 0 30px 0;
+    }
+    .services_body .services h3::after {
+        top: 2%;
+        left: 50%;
+        height: 1px;
+        transform: translate(-50%);
+        width: 70px;
+    }
+    #services_section .services>p {
+        font-size: 14px;
+    }
+    .services_body .services_con img {
+        width: 150px;
+        height: 150px;
+    }
+    /*----------------------------------ABOUT PAGE--------------------------------*/
+    #about_slider #slider_section {
+        display: none;
+    }
+    #about_page .about-content h2 {
+        font-size: 28px;
+    }
+    #about_page .about-content h2::after {
+        top: 47px;
+        height: 1px;
+    }
+    #about_page .about-content p {
+        font-size: 17px;
+        text-align: justify;
+        word-spacing: -2px;
+    }
+    #about_page .about-content .read_more {
+        width: 69%;
+        margin-top: 27px;
+    }
+    #about_page .about_bottom {
+        padding-top: 75px;
+    }
+    .about_bottom .col-sm-4:not(:last-child) {
+        margin-bottom: 70px;
+    }
+    /*----------------------------------CONTACT PAGE--------------------------------*/
+    #contact_header h4 {
+        font-size: 23px;
+    }
+    #contact_header span {
+        display: none;
+    }
+    .contact_info h2 {
+        font-size: 25px;
+    }
+    .contact_info>p {
+        font-size: 14px;
+    }
+    .contact_info h6 {
+        font-size: 14px;
+    }
+    .contact_info .email {
+        font-size: 13px;
+    }
+    .book_appointment h3 {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    /*----------------------------------APPOINTMENTS PAGE--------------------------------*/
+    .doctors_appointment .doctor_box .doctor_info p:nth-child(1),
+    .doctors_appointment .doctor_box .doctor_info p:nth-child(5),
+    .doctors_appointment .doctor_box .doctor_info p:nth-child(4) {
+        display: none;
+    }
+    .doctors_appointment h3 {
+        font-size: 18px
+    }
+    .doctors_appointment .doctor_box .doctor_info hr {
+        display: block;
+    }
+    .doctor_box .row::after {
+        display: none;
+    }
+    .doctors_appointment {
+        max-height: none;
+    }
+    /*----------------------------------PATIENTS LOGIN PAGE--------------------------------*/
+    #patient_info h2 {
+        font-size: 26px;
+    }
+    #patient_info .notice {
+        font-size: 14px;
+    }
+    /*----------------------------------PATIENTS PAGE--------------------------------*/
+    #patinet_info .width_devices {
+        display: none;
+    }
+    #patinet_info .user_profile {
+        display: block;
+    }
+    /*----------------------------------PATIENTS PAGE--------------------------------*/
+    #laptop_device {
+        display: none;
+    }
+    #mobile_device {
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 10px;
+    }
+    #patient_section h1 {
+        text-align: center;
+        font-size: 24px;
+        width: 100%
+    }
+    #mobile_device a span {
+        top: 26px;
+        position: absolute;
+        left: 50px;
+    }
+    .topbar .dropdown .dropdown-menu {
+        width: calc(100% - 1.5rem);
+        right: -6.25rem;
+    }
+    a.d-sm-inline-block.btn.btn-sm.btn.shadow-sm {
+        position: absolute;
+        top: 20px;
+        right: 10px
+    }
+
+    /*--------------------------*/
+
+
+}
+
+@media only screen and (max-width:270px) {
+    a.d-sm-inline-block.btn.btn-sm.btn.shadow-sm {
+        position: absolute;
+        top: 130px;
+        right: 10px;
+        width: 90%;
+    }
+    #patient_section .patient_head {
+        margin-bottom: 57px;
+    }
+}
+
+@media only and (max-width: 281px) {
+    #doctors_section h4 {
+        font-size: 17px !important;
+    }
+}
+
+@media only screen and (max-width:265px) {
+    #hints_section h3::after {
+        top: 9%;
+    }
+}
