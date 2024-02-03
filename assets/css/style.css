@@ -665,11 +665,12 @@ h4 {
     transform: translate(-50%);
 }
 .services-card{
-    background-color: #f5f8fc;
+    /* background-color: #f5f8fc; */
+    background: #fcfcfc;
 }
 .services_con {
     margin-bottom: 20px;
-    background-color: #f5f8fc;
+    /* background-color: #f5f8fc; */
 }
 
 .services_con h5 {
@@ -903,6 +904,10 @@ h4 {
     text-align: left;
     /* margin-bottom: 25px; */
     color: #353535;
+}
+.why-us-section h3 strong {
+    letter-spacing: -1.5px;
+    color: #235EA5;
 }
 .why-us-section img{
     margin-bottom: 25px;
@@ -1406,6 +1411,9 @@ iframe {
 #doctor_search {
     padding: 20px 0;
 }
+#doctor_search .doc-error{
+    color:rgb(179, 150, 35);
+}
 
 #doctor_search .col-sm-4 {
     margin-bottom: 30px;
@@ -1835,7 +1843,7 @@ i.fa.fa-user-md {
 }
 
 .about_bottom .card-body {
-    background: rgb(218, 218, 218) !important;
+    background: rgb(232, 232, 232) !important;
     border-radius: 5px;
     border: transparent;
     padding: 1.25rem 1.25rem 0 1.25rem;

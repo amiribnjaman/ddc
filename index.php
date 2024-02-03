@@ -135,7 +135,8 @@ if(isset($_POST['appointment'])){
 			</div>
 			<!-------------WHY US------->
 			<div class='col-sm ml-4'>
-				<h3>WHY US?</h3>
+				<h3>WHY <strong>US?</strong> </h3>
+
 				<img src="./assets/images/border.svg" alt="">
 				<div>
 					<div>

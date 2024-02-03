@@ -99,7 +99,7 @@ $doc_info = $add->manage_doctor();
 				<?php }?>
 			<?php } else { ?> 
 
-			<h3 class="text-info" style="text-align:center;margin:auto; font-weight: bold">No Doctor Found!</h3>
+			<h3 class="doc-error" style="text-align:center;margin:auto; font-weight: bold">No Doctor Found!</h3>
 
 			<?php } ?> 
 			</div>
