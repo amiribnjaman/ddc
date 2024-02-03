@@ -667,7 +667,7 @@ h4 {
 }
 
 .services_con h5 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 650;
     /* color: #216ecc; */
     /* margin-bottom: 10px; */
@@ -680,7 +680,7 @@ h4 {
 .services_con p {
     color: rgb(78, 77, 77);
     font-weight: 400;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 25px;
 }
 
@@ -703,9 +703,9 @@ h4 {
 /*-----------Notice area----------*/
 
 .notice_area {
-    display: inline-flex;
     padding: 30px 0;
-    margin: 30px 55px;
+    width: 90%;
+    margin: 80px auto;
     align-items: center;
 }
 
@@ -807,7 +807,89 @@ h4 {
     margin-left: 25px;
 }
 
+/*--------------------Service section end-------------------*/
 
+/*--------------------WHY US SECTION START-------------------*/
+/*----------ACCORDION----------- */
+/* Accordion */
+.accordion,
+.accordion * {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.accordion {
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.accordion .section, .accordion .section-content{
+    margin-bottom: 10px;
+}
+/* Section Title */
+.section-title {
+    background: #f7f7f7;
+    display: inline-block;
+    border-bottom: 1px solid #f7f7f7;
+    width: 100%;
+    padding: 15px;
+    transition: all linear 0.15s;
+    color: #000;
+    font-size: 16px;
+}
+
+.section-title.active,
+.section-title:hover {
+    background: #235EA5;
+    color: #fff;
+}
+
+.section:last-child .section-title {
+    border-bottom: none;
+}
+
+.section-title:after {
+    /* Unicode character for "plus" sign (+) */
+    content: '\02795';
+    font-size: 13px;
+    /* color: #FFF; */
+    float: right;
+    margin-left: 5px;
+    color: #000;
+    border: 0;
+    box-shadow: none;
+}
+
+.section-title.active:after {
+    /* Unicode character for "minus" sign (-) */
+    content: "\2796";
+}
+
+/* Section Content */
+.section-content {
+    display: none;
+    padding: 20px;
+}
+
+/*-----------------*/
+.why-us-section{
+    width: 90%;
+    margin: 110px auto;
+}
+.why-us-section h3{
+    text-align: left;
+    margin-bottom: 25px;
+}
+.why-us-section h5{
+    font-size: 17px;
+    text-align: left;
+    /* margin-bottom: 1px; */
+}
+.why-us-section p{
+    font-size: 14px;
+    color: #524e4e;
+}
 /*--------------------Service section end-------------------*/
 
 

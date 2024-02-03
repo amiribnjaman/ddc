@@ -91,16 +91,70 @@ if(isset($_POST['appointment'])){
 		<!-------------------------Service section end-------------------------->
 
 		<!-------------------------WHY US with FAQ section Start-------------------------->
-		<section class='row '>
+		<section class='row why-us-section'>
 			<!-----------FAQ -->
-			<div class='col-sm-6'>
+			<div class='col-sm mr-4'>
+				<h3>FAQ's</h3>
+				<div class="accordion">
+					
+				<div class="section">
+				<a class="section-title" href="#accordion-1">What is the difference between lease and licence agreement?</a>
+				<div id="accordion-1" class="section-content">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet 
+				aliquam libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+				Nunc ac eros urna. Duis tempor lacinia diam a condimentum. Fusce rutrum, ipsum 
+				quis ultrices eleifend, eros urna finibus dui, molestie aliquam enim ipsum 
+				sed tellus. Cras nibh ante, fringilla vel magna in, pharetra congue ligula.</p>
+				</div><!-- section-content end -->
+				</div><!-- section end -->
 
+				<div class="section">
+				<a class="section-title" href="#accordion-2">How ownership of property is acquired by a person?</a>
+				<div id="accordion-2" class="section-content">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet 
+				aliquam libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+				Nunc ac eros urna. Duis tempor lacinia diam a condimentum. Fusce rutrum, ipsum 
+				quis ultrices eleifend, eros urna finibus dui, molestie aliquam enim ipsum 
+				sed tellus. Cras nibh ante, fringilla vel magna in, pharetra congue ligula.</p>
+				</div><!-- section-content end -->
+				</div><!-- section end -->
+				<div class="section">
+				<a class="section-title" href="#accordion-3">Can a registered will be rectified or changed?</a>
+				<div id="accordion-3" class="section-content">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet 
+				aliquam libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+				Nunc ac eros urna. Duis tempor lacinia diam a condimentum. Fusce rutrum, ipsum 
+				quis ultrices eleifend, eros urna finibus dui, molestie aliquam enim ipsum 
+				sed tellus. Cras nibh ante, fringilla vel magna in, pharetra congue ligula.</p>
+				</div><!-- section-content end -->
+				</div><!-- section end -->
+				
+				</div><!-- accordion end -->				
 			</div>
 			<!-------------WHY US------->
-			<div class='col-sm-6'>
+			<div class='col-sm ml-4'>
 				<h3>WHY US?</h3>
 				<div>
-
+					<div>
+					<h5>Great Infrastructure</h5>
+					<p>Nunc at pretium est curabitur commodo leac est venenatis egestas sed aliquet auguevelit.</p>
+				</div>
+					<div>
+					<h5>24/7 Ambulance Services</h5>
+					<p>Nunc at pretium est curabitur commodo leac est venenatis egestas sed aliquet auguevelit.</p>
+				</div>
+					<div>
+					<h5>Cutting Edge Technology</h5>
+					<p>Nunc at pretium est curabitur commodo leac est venenatis egestas sed aliquet auguevelit.</p>
+				</div>
+					<div>
+					<h5>Experienced Doctors</h5>
+					<p>Nunc at pretium est curabitur commodo leac est venenatis egestas sed aliquet auguevelit.</p>
+				</div>
+					<div>
+					<h5>Skilled Technician</h5>
+					<p>Nunc at pretium est curabitur commodo leac est venenatis egestas sed aliquet auguevelit.</p>
+				</div>
 				</div>
 			</div>
 		</section>
