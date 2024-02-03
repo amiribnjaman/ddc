@@ -86,7 +86,7 @@ $current_page = end($page);
 										<i class="fa fa-phone"></i>
 									</div>
 									<div class="nav_con">
-										<h6> <strong>Hotline:</strong>
+										<h6> <span>Hotline:</span>
 										<a href="#" class="cell_number">01817-732042</a>
 										<a href="#" class="cell_number">01839-979190</a> <br></h6>
 										<p>Our support team 24/7 ready for supporting you.</p>
@@ -98,7 +98,7 @@ $current_page = end($page);
 										<i class="fa fa-map-marker" aria-hidden="true"></i>
 									</div>
 									<div class="nav_con" style="width:100%">
-										<h6> <span>Our location</span>
+										<h6><span>Our location</span>
 										</h6>
 										<p>Puratan Dhak Bangla (Bypass Bosurhat Road),Dagonbhuiyan, Feni.</p>
 									</div>

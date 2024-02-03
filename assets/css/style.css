@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,200&family=Titillium+Web:ital,wght@0,200;0,300;0,400;1,200;1,300&family=Source+Code+Pro:ital,wght@0,300;0,700;1,200;1,300;1,400;1,500;1,600&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
 html, body {
-    font-family: "Open Sans", Arial, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     overflow-x: hidden;
     box-sizing: border-box;
 }
@@ -29,12 +30,12 @@ li {
 }
 
 p {
-    font-family: 'Balsamiq Sans', cursive;
+    /* font-family: 'Balsamiq Sans', cursive; */
 }
 
 strong,
 span {
-    font-family: 'Balsamiq Sans', cursive;
+    /* font-family: 'Balsamiq Sans', cursive; */
 }
 
 h1,
@@ -175,7 +176,7 @@ h4 {
     text-align: left;
 }
 
-.nav_area .nav_con h6 strong {
+.nav_area .nav_con h6 span {
     color: #235EA5;
 }
 
@@ -615,10 +616,13 @@ h4 {
     padding: 10px 0;
     text-align: center;
     position: relative;
+    margin: 30px 0 40px;
 }
-
+.services-row{
+    /* display: flex; */
+}
 .services {
-    padding: 40px 0 30px 0;
+    padding: 40px 0 40px 0;
 }
 
 .services h3,
@@ -631,11 +635,6 @@ h4 {
     font-size: 27px;
 }
 
-.services h3 strong {
-    font-weight: 700;
-    letter-spacing: -1.5px;
-    color: #235EA5;
-}
 
 .services p {
     width: 70%;
@@ -653,39 +652,50 @@ h4 {
     display: block;
     width: 150px;
     height: 1px;
-    background: #D4D4D4;
+    /* background: #D4D4D4; */
     top: 90px;
     left: 50%;
     transform: translate(-50%);
 }
-
+.services-card{
+    background-color: #f5f8fc;
+}
 .services_con {
     margin-bottom: 20px;
+    background-color: #f5f8fc;
 }
 
-.services_con {
+.services_con h5 {
     font-size: 18px;
     font-weight: 650;
-    color: #0d9f98;
-    margin-bottom: 25px;
+    /* color: #216ecc; */
+    /* margin-bottom: 10px; */
     display: block;
     /* background: #f6faf9; */
-    background: #fefdfd;
-    padding: 17px 8px;
+    /* background: #fefdfd; */
+    padding: 17px 8px 5px;
 }
 
 .services_con p {
     color: rgb(78, 77, 77);
-    font-weight: 510;
+    font-weight: 400;
     font-size: 14px;
     line-height: 25px;
 }
 
 .services_con a {
-    color: #0d9f98;
+    color: #000;
+    text-transform: capitalize;
+    border: 1px solid #216ecc;
+    padding: 5px 10px;
+    border-radius: 20px;
     letter-spacing: -1px;
-    font-weight: 510;
     font-size: 14px;
+}
+
+.services_con a:hover{
+    background-color:  #216ecc;
+    color: #fff;
 }
 
 
