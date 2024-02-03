@@ -97,9 +97,9 @@ h4 {
 .nav_top .btn-success {
     padding-left: 35px;
     padding-right: 35px;
-    background: #459b97;
-    border-color: #459b97;
-    box-shadow: 0 0 0 .2rem #459b97;
+    background: #235EA5;
+    border-color: #235EA5;
+    box-shadow: 0 0 0 .2rem #235EA5;
     font-size: 14px;
     letter-spacing: .5px;
     margin: 5px 0;
@@ -109,9 +109,9 @@ h4 {
 .nav_top .btn-success:focus {
     padding-left: 35px;
     padding-right: 35px;
-    background: #459b97;
-    border-color: #459b97;
-    box-shadow: 0 0 0 .2rem #459b97;
+    background: #235EA5;
+    border-color: #235EA5;
+    box-shadow: 0 0 0 .2rem #235EA5;
 }
 
 .nav_top .social_links li a {
@@ -143,7 +143,7 @@ h4 {
 } */
 
 #nav_middle_section .logo_area a {
-    color: #0db3aa;
+    color: #235EA5;
     text-decoration: none;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -176,7 +176,7 @@ h4 {
 }
 
 .nav_area .nav_con h6 strong {
-    color: #239d97;
+    color: #235EA5;
 }
 
 .nav_area .nav_con a {
@@ -195,7 +195,7 @@ h4 {
 
 .nav_area .nav_icon i {
     font-size: 20px;
-    color: #239d97;
+    color: #235EA5;
 }
 
 #nav_middle_section .navbar ul a {
@@ -371,7 +371,7 @@ h4 {
 }
 
 #main_nav .active {
-    background: #38aaa4;
+    background: #11437e;
     /* background: #d9f6f5; */
 }
 
@@ -833,7 +833,7 @@ h4 {
 
 #short_description .button a {
     background: #fff;
-    color: #239d97;
+    color: #235EA5;
     padding: 19px 42px;
     line-height: 130px;
     border-radius: 4px;
@@ -842,7 +842,7 @@ h4 {
 }
 
 #short_description .button a:hover {
-    background: #239d97;
+    background: #235EA5;
     ;
     color: #fff;
     transition: .3s;
@@ -890,7 +890,7 @@ h4 {
 }
 
 #doctor_meet a:hover {
-    background: linear-gradient(#239d97, #239d97);
+    background: linear-gradient(#235EA5, #235EA5);
     color: #fff;
     transition: .3s;
 }

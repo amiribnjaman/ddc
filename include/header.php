@@ -55,7 +55,7 @@ $current_page = end($page);
 						</div>
 						<div class="col-sm-3 balnk_col"><a href="" class="cell_number">Contact : 01817-732042</a></div>
 						<div class="col-sm-3">
-							<a href="patient-info-login" class="btn btn-success float-right"><strong>PATIENT INFO</strong> </a>
+							<a href="patient-info-login" class="btn btn-success float-right"><span>PATIENT INFO</span> </a>
 						</div>
 					</div>
 						<div class="social_links float-right">
@@ -89,7 +89,7 @@ $current_page = end($page);
 										<h6> <strong>Hotline:</strong>
 										<a href="#" class="cell_number">01817-732042</a>
 										<a href="#" class="cell_number">01839-979190</a> <br></h6>
-										<strong><p>Our support team 24/7 ready for supporting you.</p></strong> 
+										<p>Our support team 24/7 ready for supporting you.</p>
 									</div>
 								</div>
 
@@ -98,9 +98,9 @@ $current_page = end($page);
 										<i class="fa fa-map-marker" aria-hidden="true"></i>
 									</div>
 									<div class="nav_con" style="width:100%">
-										<h6> <strong>Our location</strong>
+										<h6> <span>Our location</span>
 										</h6>
-										<strong><p>Puratan Dhak Bangla (Bypass Bosurhat Road),Dagonbhuiyan, Feni.</p></strong>
+										<p>Puratan Dhak Bangla (Bypass Bosurhat Road),Dagonbhuiyan, Feni.</p>
 									</div>
 								</div>
 
