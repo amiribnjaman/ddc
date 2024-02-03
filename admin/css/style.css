@@ -1,0 +1,15 @@
+.card .alert-danger{
+	border-radius: 25px;
+}
+..navbar-expand-lg .navbar-toggler{
+	display: block;
+}
+/* .add_doctor .col-sm-4{
+	padding-left: 0;
+} */
+.add_doctor .col-sm-4 input{
+	font-size: 17px;
+}
+#home_page .home_submit{
+	padding-left: 0;
+}
