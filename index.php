@@ -86,8 +86,28 @@ if(isset($_POST['appointment'])){
 						
 					</div>
 				</div>
-				<hr>
-				<!-------------Notice-------------->
+			</div>
+		</section>
+		<!-------------------------Service section end-------------------------->
+
+		<!-------------------------WHY US with FAQ section Start-------------------------->
+		<section class='row '>
+			<!-----------FAQ -->
+			<div class='col-sm-6'>
+
+			</div>
+			<!-------------WHY US------->
+			<div class='col-sm-6'>
+				<h3>WHY US?</h3>
+				<div>
+
+				</div>
+			</div>
+		</section>
+		<!-------------------------WHY US with FAQ section end-------------------------->
+
+		<hr>
+				<!--------------------------------Notice Section------------------------>
 				<div class="row notice_area">
 					<div class="col-sm-4">
 						<div class="notice">
@@ -118,9 +138,7 @@ if(isset($_POST['appointment'])){
 					</div>
 					</div>
 				</div>
-			</div>
-		</section>
-		<!-------------------------Service section end-------------------------->
+
 
 		<!--------------------Hints section start-------------------------->
 		<section id="hints_section">

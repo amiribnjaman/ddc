@@ -182,6 +182,7 @@ h4 {
 
 .nav_area .nav_con a {
     color: #000;
+    font-weight: normal;
 }
 
 .nav_area p {
@@ -202,7 +203,7 @@ h4 {
 #nav_middle_section .navbar ul a {
     text-transform: uppercase;
     font-size: 13px;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: #fff;
     text-decoration: none;
 }
@@ -704,10 +705,12 @@ h4 {
 .notice_area {
     display: inline-flex;
     padding: 30px 0;
+    margin: 30px 55px;
+    align-items: center;
 }
 
 .notice_area .notice {
-    margin: 6% 0 0 15%;
+    /* margin: 6% 0 0 15%; */
     position: relative;
 }
 
@@ -725,6 +728,7 @@ h4 {
 
 .notice h3 {
     letter-spacing: -.5px;
+    text-align: left;
 }
 
 .notice h3 strong {
@@ -755,14 +759,13 @@ h4 {
 
 .thumbnail_con a {
     color: #0d9f98;
-    font-weight: 550;
+    font-weight: 500;
     margin-bottom: 10px;
     display: block;
 }
 
 .thumbnail_con p {
     color: #929292;
-    font-weight: 505;
     font-size: 14px;
     line-height: 20px;
 }
@@ -775,7 +778,7 @@ h4 {
     width: inherit;
     display: inline-block;
     background: #235EA5;
-    padding: 10px 15px;
+    padding: 7px 0;
     max-height: 100px;
     color: #fff;
     margin-top: 20px;
@@ -799,7 +802,6 @@ h4 {
 
 .notice_area a span {
     float: right;
-    width: 50%;
     font-size: 15px;
     font-weight: 510;
     margin-left: 25px;
