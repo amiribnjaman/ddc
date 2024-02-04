@@ -128,6 +128,7 @@ $current_page = end($page);
 						<div class="collapse navbar-collapse nav-section" id="navbarTogglerDemo03">
 							<div class='nav-logo'>
 							<h1> <a href="">DDC<span>&GH</span> </a> </h1>
+							<span class='tagline'>Serve the Best, Your Nearest.</span>
 						</div>
 						<ul class="navbar-nav mt-2 mt-lg-0">
 							<a href="index">

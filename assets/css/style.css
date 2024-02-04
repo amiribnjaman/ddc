@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&family=Josefin+Sans:wght@200;300;400;500;600;700&family=Pacifico&display=swap');
 
 * {
     margin: 0;
@@ -62,6 +62,10 @@ h4 {
     margin-top: -7px;
 }
 
+.nav_top .email{
+    font-weight: 300;
+}
+
 .nav_top ul {
     /* padding: 0; */
     display: flex;
@@ -71,10 +75,11 @@ h4 {
 .nav-top-right a{
     color: #0A598A;
     font-size: 14px;
+        font-weight: 300;
 }
 .nav-top-right p{
     font-size: 14px;
-    font-weight: normal;
+    font-weight: 300;
 }
 .nav_top ul li {
     list-style: none;
@@ -307,6 +312,18 @@ h4 {
 
 
 /*---------------------Main nav  Start----------------------*/
+#main_nav {
+    background: #F2F3F5;
+    /* background: #235EA5; */
+    /* background-color: #32353A; */
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 70;
+    margin-top: -23px;
+}
+
 #main_nav .nav-section{
     display: flex !important;
     justify-content: space-between;
@@ -333,29 +350,34 @@ h4 {
     color: #fff;
     border-radius: 20px;
     background-color: #235EA5;
+    margin-left: 35px;
+}
+
+.nav-logo{
+    line-height: 0px;
+    margin-bottom: 17px;
+}
+.nav-logo h1{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+
 }
 .nav-logo h1 a{
     color: #235EA5;
-    font-size: 27px;
+    font-size: 28px;
+    font-weight: 600;
 }
 .nav-logo h1 span{
     color: #000;
+}
+.nav-logo .tagline{
+    font-size: 12px;
+    font-weight: 300;
 }
 .collapse:not(.show) {
     /* display: block; */
 }
 
-#main_nav {
-    background: #F2F3F5;
-    /* background: #235EA5; */
-    /* background-color: #32353A; */
-    width: 100%;
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 70;
-    margin-top: -23px;
-}
 
 .form-inline {
     max-width: 30%;
@@ -383,7 +405,7 @@ h4 {
 
 #main_nav .navbar ul li {
     margin-left: -5px;
-    padding: 30px 20px;
+    padding: 33px 20px;
     display: flex;
     align-items: center;
     /* border-right: 1px solid rgba(0, 0, 0, 0.07); */
