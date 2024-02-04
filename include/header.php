@@ -39,13 +39,13 @@ $current_page = end($page);
 			<!------------------Nav Top-Start------------------------->
 			<div class="nav_top">
 				<div class="container mt-1">
-					<div class="row">
+					<div class="row d-flex justify-content-between">
 						<div class="col-sm-3">
 							<ul class="email">
 								<li><a href=""> <i class="fa fa-telegram"></i> ddcentercm2011@gmail.com</a></li>
 							</ul>
 						</div>
-						<div class="col-sm-3">
+						<!-- <div class="col-sm-3">
 							<ul class="social_links">
 								<li><a href=""><i class="fa fa-facebook" style="color:#3B5998"></i></a></li>
 								<li><a href=""><i class="fa fa-whatsapp" style="color:#00984B" ></i></a></li>
@@ -53,7 +53,7 @@ $current_page = end($page);
 								<li><a href=""><i class="fa fa-instagram" style="color:#f46f30"></i></a></li>
 							</ul>
 						</div>
-						<div class="col-sm-3 balnk_col"><a href="" class="cell_number">Contact : 01817-732042</a></div>
+						<div class="col-sm-3 balnk_col"><a href="" class="cell_number">Contact : 01817-732042</a></div> -->
 						<div class="col-sm-3">
 							<a href="patient-info-login" class="btn btn-success float-right"><span>PATIENT INFO</span> </a>
 						</div>
@@ -116,7 +116,7 @@ $current_page = end($page);
 					<nav class="navbar p-0 navbar-expand-lg navbar-light">
 						<div class="collapse navbar-collapse nav-section" id="navbarTogglerDemo03">
 							<div class='nav-logo'>
-							<h1>DDC&GH</h1>
+							<h1> <a href="">DDC<span>&GH</span> </a> </h1>
 						</div>
 						<ul class="navbar-nav mt-2 mt-lg-0">
 							<a href="index">
@@ -142,10 +142,10 @@ $current_page = end($page);
 								<li class="nav-item <?= $current_page== 'contact-us.php' ? 'active':''; ?>">contact us</li>
 							</a>
 						</ul>
-						<form class="form-inline search-box my-2 my-lg-0">
+						<!-- <form class="form-inline search-box my-2 my-lg-0">
 							<input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
 							<i class="fa fa-search"></i>
-						</form>
+						</form> -->
 							<div class="humberger" id="menu" onClick="myAnimate(this)">
 								<div class="bar bar1"></div>
 								<div class="bar bar2"></div>
