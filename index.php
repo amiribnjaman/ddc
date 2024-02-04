@@ -201,7 +201,7 @@ if(isset($_POST['appointment'])){
 			<h3 class="text-center">Doctor's <strong>Appointment</strong></h3>
 			<img src="./assets/images/border.svg" alt="">
 
-			<p class="text-center">Our hospital has a bunch of experienced doctors who are always engaged to served you. And we have been in your yard for almost a decade with the help of those who have become a trusted hospital to serve you. <br> So, You fill out the form below to make a doctor's appointment. </p>
+			<p class="text-center">Our hospital has a bunch of experienced doctors who are always engaged to served you. And we have been in your yard for almost a decade with the help of those who have become a trusted hospital to serve you. So, You fill out the form below to make a doctor's appointment. </p>
 
 			<!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempora dolor facilis voluptates libero. <span> Provident dolore beatae quod exercitationem sequi quas at illum consequatur accusamus, quaerat deleniti, doloribus aspernatur......</span> -->
 			<!-- <div class="full_hints">

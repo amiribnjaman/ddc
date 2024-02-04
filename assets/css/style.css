@@ -346,11 +346,11 @@ h4 {
     /* position: absolute; */
 }
 .navbar-nav .patient-info-btn{
-    padding: 8px 20px;
+    padding: 8px 25px;
     color: #fff;
     border-radius: 20px;
     background-color: #235EA5;
-    margin-left: 35px;
+    margin-left: 33px;
 }
 
 .nav-logo{
@@ -540,10 +540,10 @@ h4 {
 #hints_section p {
     width: 60%;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 30px;
     color: rgb(78, 77, 77);
     font-size: 16px;
-    font-weight: 650;
+    font-weight: 400;
 }
 
 #hints_section strong {
