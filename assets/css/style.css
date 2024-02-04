@@ -68,7 +68,14 @@ h4 {
     align-items: center;
     margin-bottom: 0;
 }
-
+.nav-top-right a{
+    color: #0A598A;
+    font-size: 14px;
+}
+.nav-top-right p{
+    font-size: 14px;
+    font-weight: normal;
+}
 .nav_top ul li {
     list-style: none;
     display: inline-flex;

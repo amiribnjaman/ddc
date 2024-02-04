@@ -39,7 +39,7 @@ $current_page = end($page);
 			<!------------------Nav Top-Start------------------------->
 			<div class="nav_top">
 				<div class="container mt-1">
-					<div class="row d-flex justify-content-between">
+					<div class="row d-flex justify-content-between align-items-center">
 						<div class="col-sm-3">
 							<ul class="email">
 								<li><a href=""> <i class="fa fa-telegram"></i> ddcentercm2011@gmail.com</a></li>
@@ -54,8 +54,19 @@ $current_page = end($page);
 							</ul>
 						</div>
 						<div class="col-sm-3 balnk_col"><a href="" class="cell_number">Contact : 01817-732042</a></div> -->
-						<div class="col-sm-3">
-							<a href="patient-info-login" class="btn btn-success float-right"><span>PATIENT INFO</span> </a>
+						<div class="col-sm-6 d-flex row align-items-center nav-top-right">
+							<!-- <a href="patient-info-login" class="btn btn-success float-right"><span>PATIENT INFO</span> </a> -->
+							<div class='d-flex col-4 g-1'> 
+								<i class="fa fa-phone mt-1 mr-1"></i>
+								<div>
+									<a href="#" class="cell_number ">01817-732042</a>
+									<!-- <a href="#" class="cell_number">01817-700000</a> -->
+								</div>
+							</div>
+
+							<div class='d-flex col-8 justify-content-end'><i class="fa fa-map-marker mt-1 mr-2" aria-hidden="true"></i>
+								<p class='m-0'>Puratan Dhak Bangla, Dagonbhuiyan, Feni.</p>
+							</div>
 						</div>
 					</div>
 						<div class="social_links float-right">
@@ -141,6 +152,7 @@ $current_page = end($page);
 							<a href="contact-us">
 								<li class="nav-item <?= $current_page== 'contact-us.php' ? 'active':''; ?>">contact us</li>
 							</a>
+							
 						</ul>
 						<!-- <form class="form-inline search-box my-2 my-lg-0">
 							<input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
