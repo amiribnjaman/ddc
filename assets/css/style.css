@@ -324,7 +324,15 @@ h4 {
 #main_nav .navbar .navbar-nav {
     margin-left: auto;
     text-align: center;
+    display: flex;
+    align-items: center;
     /* position: absolute; */
+}
+.navbar-nav .patient-info-btn{
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 20px;
+    background-color: #235EA5;
 }
 .nav-logo h1 a{
     color: #235EA5;
@@ -387,7 +395,7 @@ h4 {
     font-size: 14px;
     text-transform: uppercase;
     font-family: 'Ubuntu', sans-serif;
-    color: #000;
+    color: #fff;
 }
 
 .navbar ul li {
@@ -1086,7 +1094,7 @@ h4 {
     background-color: #fcfcfc;
 }
 #latest_technology {
-    padding: 50px 0 20px 0;
+    padding: 50px 0 0 0;
 }
 
 

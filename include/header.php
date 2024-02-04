@@ -152,6 +152,9 @@ $current_page = end($page);
 							<a href="contact-us">
 								<li class="nav-item <?= $current_page== 'contact-us.php' ? 'active':''; ?>">contact us</li>
 							</a>
+							<div class='patient-info-btn'>
+								<a href="patient-info-login" class=" float-right">PATIENT INFO </a>
+							</div>
 							
 						</ul>
 						<!-- <form class="form-inline search-box my-2 my-lg-0">
