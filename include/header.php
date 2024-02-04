@@ -68,7 +68,7 @@ $current_page = end($page);
 
 			<!---------------------Nav Top End---------------------->
 			<!--------------------Nav Middle Start------------------->
-			<section  id="nav_middle_section">
+			<!-- <section  id="nav_middle_section">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-3">
@@ -108,15 +108,17 @@ $current_page = end($page);
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> -->
 			<!----------------------End Middle nav bar--------------------->
 			<!----------------------Main nav Start--------------------->
 			<div id="main_nav" class="position-sticky">
 				<div class="container">
 					<nav class="navbar p-0 navbar-expand-lg navbar-light">
-
-						<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-						<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+						<div class="collapse navbar-collapse nav-section" id="navbarTogglerDemo03">
+							<div class='nav-logo'>
+							<h1>DDC&GH</h1>
+						</div>
+						<ul class="navbar-nav mt-2 mt-lg-0">
 							<a href="index">
 								<li class="nav-item <?= $current_page== 'index.php' ? 'active':''; ?>">Home
 								</li>
@@ -140,7 +142,7 @@ $current_page = end($page);
 								<li class="nav-item <?= $current_page== 'contact-us.php' ? 'active':''; ?>">contact us</li>
 							</a>
 						</ul>
-						<form class="form-inline my-2 my-lg-0">
+						<form class="form-inline search-box my-2 my-lg-0">
 							<input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
 							<i class="fa fa-search"></i>
 						</form>
