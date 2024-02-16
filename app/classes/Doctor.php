@@ -8,15 +8,17 @@ class Doctor{
 
 	public function doctor_appointment($data){
 		$patient_name  = $data['patient_name'];
-		$email         = $data['email'];
+		// $email         = $data['email'];
 		$phone_number  = $data['phone_number'];
 		$doctor_name   = $data['doctor_name'];
 		// $department   = $data['department'];
-		$message       = $data['message'];
+		// $message       = $data['message'];
 
 
 
 		if(!empty($patient_name && $phone_number)){
+			$email = 'example@mail.com';
+			$message = 'this is message';
 			$query = "INSERT INTO `doctor_appointment`(`patient_name`,`email`,`phone_number`,`doctor_name`,`message`) VALUES ('$patient_name','$email','$phone_number','$doctor_name','$message')";
 
 				//$department
@@ -27,7 +29,7 @@ class Doctor{
 				return $msg;
 			}
 		} else {
-			$msg = "<h6 class='btn btn-warning form-control inline-block' style='color:#fff'>Please, Fill-up all require field";
+			$msg = "<h6 class='btn btn-warning form-control m-0 mb-2' style='color:#fff'>Please, Fill-up all require field</h6>";
 			return $msg;
 		}
 		
