@@ -197,20 +197,39 @@ if(isset($_POST['appointment'])){
 
 
 		<!--------------------Hints section start-------------------------->
-		<section id="hints_section">
-			<h3 class="text-center">Doctor's <strong>Appointment</strong></h3>
-			<img src="./assets/images/border.svg" alt="">
+		<section class='row gx-5' id="hints_section">
+			<div class='col'>
+				<h4 class='text-start mb-3'>Tips from Dr. Kishore kumar Halder</h4>
+				<div class='mt-6 row'>
+					<div class='col-4'>
+						<img class='w-100' src="./images/tip-doc.jpg" alt="">
+					</div>
+					<div class='col-8'>
+						<h5>How to live a healthy lifestyle?</h5>
+						<p class='mt-3'>Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo</p>
+						<ul>
+							<li><span>&#10003;</span> Dont just worry about the things you cannot help.</li>
+							<li><span>&#10003;</span>Eat Healthy, work better, do gardening.</li>
+							<li><span>&#10003;</span>Some relationships can kill you. Avoid them at the most.</li>
+							<li><span>&#10003;</span>Focus on the good things that you like</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class='col appointment_part'>
+				<!-- <h3 class="text-center">Make an <strong>Appointment</strong></h3>
+			<img src="./assets/images/border.svg" alt=""> -->
 
-			<p class="text-center">Our hospital has a bunch of experienced doctors who are always engaged to served you. And we have been in your yard for almost a decade with the help of those who have become a trusted hospital to serve you. So, You fill out the form below to make a doctor's appointment. </p>
+			<!-- <p class="text-center">Our hospital has a bunch of experienced doctors who are always engaged to served you. And we have been in your yard for almost a decade with the help of those who have become a trusted hospital to serve you. So, You fill out the form below to make a doctor's appointment. </p> -->
 
 			<!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempora dolor facilis voluptates libero. <span> Provident dolore beatae quod exercitationem sequi quas at illum consequatur accusamus, quaerat deleniti, doloribus aspernatur......</span> -->
 			<!-- <div class="full_hints">
 			</div> -->
 				<div class="container">
-					<div class="row">
-						<div class="col-lg-2 col-sm-1"></div>
-						<div class="col-sm-10 col-md-10 col-lg-8">
-							<form action="" method="POST">
+						<div class=""></div>
+						<div class="">
+						<h6>Make an Appointment</h6>						
+						<form action="" method="POST">
 								<p><?= isset($msg) ? $msg:'';?></p>
 								<h6 class="text-left"><sup>* </sup>Marked field is required.</h6>
 								<input type="text" class="form-control" placeholder="Patient Name *" name="patient_name">
@@ -233,8 +252,8 @@ if(isset($_POST['appointment'])){
 								<input type="submit" class="btn btn-success form-control" name="appointment" value="Make an Appointment">
 							</form>
 						</div>
-					</div>
 				</div>
+			</div>
 		</section>
 		<hr>
 		<!----------------------------Hints section end------------------------------->
