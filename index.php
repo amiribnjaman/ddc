@@ -198,9 +198,9 @@ if(isset($_POST['appointment'])){
 
 		<!--------------------Hints section start-------------------------->
 		<section class='row gx-5' id="hints_section">
-			<div class='col'>
-				<h4 class='text-start mb-3'>Tips from Dr. Kishore kumar Halder</h4>
-				<div class='mt-6 row'>
+			<div class='col-7 tips-section'>
+				<h4 class='text-start'>Tips from Dr. Kishore kumar Halder</h4>
+				<div class='tips-body row'>
 					<div class='col-4'>
 						<img class='w-100' src="./images/tip-doc.jpg" alt="">
 					</div>
@@ -213,10 +213,11 @@ if(isset($_POST['appointment'])){
 							<li><span>&#10003;</span>Some relationships can kill you. Avoid them at the most.</li>
 							<li><span>&#10003;</span>Focus on the good things that you like</li>
 						</ul>
+						<p>Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Etiam sit amet orci eget eros faucibus.</p>
 					</div>
 				</div>
 			</div>
-			<div class='col appointment_part'>
+			<div class='col-5 appointment_part'>
 				<!-- <h3 class="text-center">Make an <strong>Appointment</strong></h3>
 			<img src="./assets/images/border.svg" alt=""> -->
 
@@ -225,37 +226,34 @@ if(isset($_POST['appointment'])){
 			<!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempora dolor facilis voluptates libero. <span> Provident dolore beatae quod exercitationem sequi quas at illum consequatur accusamus, quaerat deleniti, doloribus aspernatur......</span> -->
 			<!-- <div class="full_hints">
 			</div> -->
-				<div class="container">
-						<div class=""></div>
+				<div class=" " >
 						<div class="">
-						<h6>Make an Appointment</h6>						
+						<h6 class='header'>Make an Appointment</h6>						
 						<form action="" method="POST">
-								<p><?= isset($msg) ? $msg:'';?></p>
-								<h6 class="text-left"><sup>* </sup>Marked field is required.</h6>
-								<input type="text" class="form-control" placeholder="Patient Name *" name="patient_name">
-								<input type="email" class="form-control" placeholder="Email" name="email">
-								<input type="text" class="form-control" placeholder="Phone Number *" name="phone_number">
+								<?= isset($msg) ?  $msg:'';?>
+								<input type="text" class="form-control" placeholder="Patient Name" name="patient_name">
+								<!-- <input type="email" class="form-control" placeholder="Email" name="email"> -->
+								<input type="text" class="form-control" placeholder="Phone Number" name="phone_number">
 								<input type="date" class="form-control" placeholder="Set date">
 								<select name="department" id="" class="form-control">
-									<option value="" class="first_option">Select Department <sup>*</sup></option>
+									<option value="" class="first_option">Select Department</option>
 									<option value=""></option>
 									<option value=""></option>
 									<option value=""></option>
 								</select>
 								<select name="doctor_name" id="" class="form-control">
-									<option value="" class="first_option">Select Doctor <sup>*</sup></option>
+									<option value="" class="first_option">Select Doctor </option>
 									<?php while($doc = mysqli_fetch_assoc($allDoc)){?>
 									<option value="<?= $doc['doctors_name'];?>"><?= $doc['doctors_name'];?></option>
 									<?php } ?>
 								</select>
-								<textarea name="message" id="" cols="" rows="4" class="form-control" placeholder="Have you any message? Please!"></textarea>
+								<!-- <textarea name="message" id="" cols="" rows="4" class="form-control" placeholder="Have you any message? Please!"></textarea> -->
 								<input type="submit" class="btn btn-success form-control" name="appointment" value="Make an Appointment">
 							</form>
 						</div>
 				</div>
 			</div>
 		</section>
-		<hr>
 		<!----------------------------Hints section end------------------------------->
 		
 		<!--------------------Testimonila section start------------------------>

@@ -505,9 +505,7 @@ h4 {
     width: 90%;
     position: relative;
     /* margin: 80px 0 50px 0; */
-    min-height: 825px;
-    max-height: 825px;
-    margin: 80px auto 50px;
+    margin: 100px auto 70px;
 }
 
 #hints_section img{
@@ -527,6 +525,9 @@ h4 {
     width: 130px;
     height: 1px;
 } */
+#hints_section .tips-section h4{
+    margin-bottom: 40px !important;
+}
 
 #hints_section h4, #hints_section h5{
     text-align: left;
@@ -554,17 +555,40 @@ h4 {
     margin-top: 5px;
 }
 
+#hints_section ul{
+    margin-top: 10px;
+}
 #hints_section ul li span{
-    padding: 3px 5px;
+    padding: 2px 5px;
     background-color: #216ecc;
     border-radius: 20%;
     color: #fff;
     display: inline-block;
-    margin: 0 5px;
+    margin: 0 7px 0 5px;
+}
+#hints_section .appointment_part{
+    background: #F2F3F5;
+    /* border-radius: 10px; */
+}
+#hints_section .appointment_part h6{
+    /* margin: 10px 0 0 0; */
+    text-align: left;
+}
+#hints_section .appointment_part .header{
+    display: block;
+    background-color: #235EA5;
+    color: #fff;
+    padding: 10px 10px;
 }
 #hints_section .appointment_part p{
     margin-top: 30px;}
 
+#hints_section .col-5{
+    padding: 0;
+}
+#hints_section .appointment_part form{
+    padding: 20px;
+}
 #hints_section strong {
     color: #235EA5;
     letter-spacing: -1.5px;
@@ -591,6 +615,8 @@ h4 {
 
 #hints_section .btn-success {
     background: #235EA5;
+    border-radius: 0 !important;
+    border: 0;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -605,97 +631,6 @@ h4 {
     z-index: 100;
 }
 
-
-/* 
-#hints_section ul{
-	padding-left: 0;
-	margin-left: 0;
-}
-#hints_section ul li a h4{
-	width: 100%;
-}
-#hints_section ul li a:hover{
-	margin-left: 0;
-	background: #235EA5;
-}
-#hints_section ul li a i{
-	margin-top: 0;
-	font-size: 35px;
-	background:  #235EA5;
-	max-width: 53px;
-	min-width: 50px;
-	min-height: 50px;
-	text-align: center;
-	align-items: center;
-	display: grid;
-	color: #fff;
-} */
-
-#hints_section .row {
-    margin-top: 50px;
-    overflow-x: hidden;
-    min-height: 640px;
-}
-
-
-/* #hints_section .col-sm-3 {
-	background: #299bdb;
-	margin: 0 16px;
-	max-width: 21.3%;
-	display: inline-flex;
-	max-height: 100px;
-	overflow: hidden;
-	min-height: 100px;
-	padding: 10px 0 20px 0;
-} */
-
-
-/* #hints_section .col-sm-3 .btn-success{
-	background: #299bdb;
-	width: 100%;
-	padding: 10px 0 20px 0;
-} */
-
-
-/* #hints_section .col-md-3:hover{
-	background: linear-gradient(#00984B, #16b102);
-	color: #fff;
-	transition: .3s;
-} */
-
-
-/* #hints_section a{
-	color: #000;
-	/* padding: 20px 0; 
-	display: inline-block;
-	margin: 0;
-	width: 100%;
-	text-decoration: none;
-	font-size: 18px;
-	text-align: center;
-}
-#hints_section a span{
-	font-size: 20px;
-	padding: 0 5px;
-	padding-left: 37px;
-}
-#hints_section h4{
-	/* width: 65%; 
-	float: left;
-	margin-left: 10px;
-	font-size: 20px;
-	font-weight: 700;
-	padding-top: 15px;
-}
-#hints_section span{
-	width: 30%;
-	float: right;
-}
-#hints_section span i{
-	/* font-size: 35px; 
-	margin-top: 13px;
-	margin-right: 10px;
-} */
 
 
 /*-------------------------Hints section end-----------------------*/

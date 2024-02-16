@@ -27,7 +27,7 @@ class Doctor{
 				return $msg;
 			}
 		} else {
-			$msg = "<h6 class='btn btn-warning form-control' style='color:#fff'>Please, Fill-up all require field";
+			$msg = "<h6 class='btn btn-warning form-control inline-block' style='color:#fff'>Please, Fill-up all require field";
 			return $msg;
 		}
 		
