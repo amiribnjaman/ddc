@@ -11,6 +11,7 @@ $patient_info = new PatientInfo;
 
 if(isset($_POST['patient_info'])){
 	$msg = $patient_info->patient_info($_POST);
+	echo $msg;
 }
 
 ?>

@@ -17,12 +17,12 @@ class PatientInfo{
 		$this->menu = $data['menu_no'];
 		$mobile_number = $data['mobile_number'];
 
-		$query = "SELECT * FROM `patient_exam` WHERE `menu`='$this->menu'";
-		$result = mysqli_query(Database::data_con_root(),$query);
+		$query = "SELECT * FROM `patient_exam` WHERE `menu_no`='$this->menu'";
+		$result = mysqli_query(Database::data_con_root(), $query);
 		$row = mysqli_fetch_assoc($result);
 
 		if(!empty($this->menu && $mobile_number)){
-			if($this->menu == $row['menu'] && $mobile_number == $row['mobile']){
+			if($this->menu == $row['menu_no'] && $mobile_number == $row['mobile']){
 				$_SESSION['menu_no'] = $data['menu_no'];
 				$_SESSION['mobile'] = $row['mobile'];
 				$_SESSION['name'] = $row['patient_name'];

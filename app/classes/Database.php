@@ -4,13 +4,13 @@ namespace App\database\root;
 
 class Database{
 
-	public function data_con_root(){
+	public static function data_con_root(){
 		$host = 'localhost';
 		$user = 'root';
 		$pass = '';
 		$db   = 'ddcghospital';
 
-		$connectt = mysqli_connect($host,$user,$pass,$db);
-		return $connectt;
+		$connect = mysqli_connect($host,$user,$pass,$db);
+		return $connect;
 	}
 }
