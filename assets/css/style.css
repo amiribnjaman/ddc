@@ -1217,6 +1217,7 @@ h4 {
     width: 100%;
     background: #235EA5;
     padding: 40px 0 10px 0;
+    position: relative;
 }
 
 #footer_section ul {
@@ -1286,7 +1287,24 @@ h4 {
 
 /*----------------------Developer section------------------------*/
 
-#developer {
+.developer{
+    position: absolute;
+    bottom: 25px;
+    right: 27px;
+    display: flex;
+}
+.developer a{
+    color: rgb(42, 160, 115);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.developer a:hover{
+    color: #fff;
+    background-color: rgb(42, 160, 115);
+    
+}
+/* #developer {
     text-align: right;
     width: 275px;
 }
@@ -1314,7 +1332,7 @@ h4 {
 #developer ul li a:hover {
     transform: scale(2.5);
     transition: .5s;
-}
+} */
 
 
 /*---------------------------------------Patient Info page--------------------------------------------*/

@@ -45,7 +45,8 @@
 				</div>
 				<div class="footer_copyright_section">
 					<div class="row">
-						<div class="col-sm-4"><p>&copy; Copyright 2010 - <?= date('Y') ?>. Dagonbhuiyan Diabetic Center & Generel Hospital.</p></div>
+						<div class="col-sm-4"><p>&copy; Copyright 2010 - <?= date('Y') ?>. Dagonbhuiyan Diabetic Center & Generel Hospital.</p>
+					</div>
 						<div class="col-sm-4">
 							<ul>
 								<li><a href="#">Terms & Conditions</a></li>
@@ -56,25 +57,15 @@
 						<div class="col-sm-4">
 							<p>12345 Total Views</p>
 						</div>
-					</div>
 
-					<!----------------------Developer Section----------------------->
-					<div id="developer" class="ml-auto">
-						<h5>AMIR HOSEN</h5>
-						<span>Software Developer</span>
-						<ul>
-							<li><a href="https://www.facebook.com/profile.php?id=100025259110380" target="_blank"><i class="fa fa-facebook" style="color:#3B5998"></i></a></li>
-							<li><a href=""><i class="fa fa-twitter" style="color:#fff"></i></a>
-							</li>
-							<li><a href="" target="_blank"><i class="fa fa-whatsapp" style="color:#09f07c" ></i></a></li>
-							<li><a href="" target="_blank"><i class="fa fa-linkedin" style="color:#0072B1"></i></a></li>
-							<li><a href="" target="_blank"><i class="fa fa-instagram" style="color:#f46f30"></i></a>
-							</li>
-						</ul>
+						
 					</div>
-					<!----------------------Developer Section----------------------->
-
 				</div>
+				<!----------------------Developer Section----------------------->
+					<div class="developer ">
+						<a href="https://amir-hosen.netlify.app/" target="_blank">Contact With Developer</a>
+					</div>
+					<!----------------------Developer Section----------------------->
 			</div>
 		</section>
 		<!----------------------Footer Section end----------------------->
