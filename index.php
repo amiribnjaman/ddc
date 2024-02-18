@@ -199,7 +199,7 @@ if(isset($_POST['appointment'])){
 		<!--------------------Hints section start-------------------------->
 		<section class='row gx-5' id="hints_section">
 			<div class='col-7 tips-section'>
-				<h4 class='text-start'>Tips from Dr. Kishore kumar Halder</h4>
+				<h4 class='text-start'>Tips from Dr. XYZ</h4>
 				<div class='tips-body row'>
 					<div class='col-4'>
 						<img class='w-100' src="./images/tip-doc.jpg" alt="">
