@@ -102,7 +102,7 @@ h4 {
 }
 
 .nav_top .email i {
-    color: #235EA5;
+    color: #4E73DF;
     font-size: 18px;
     padding-right: 5px;
 }
@@ -110,9 +110,9 @@ h4 {
 .nav_top .btn-success {
     padding-left: 35px;
     padding-right: 35px;
-    background: #235EA5;
-    border-color: #235EA5;
-    box-shadow: 0 0 0 .2rem #235EA5;
+    background: #4E73DF;
+    border-color: #4E73DF;
+    box-shadow: 0 0 0 .2rem #4E73DF;
     font-size: 14px;
     letter-spacing: .5px;
     margin: 5px 0;
@@ -122,9 +122,9 @@ h4 {
 .nav_top .btn-success:focus {
     padding-left: 35px;
     padding-right: 35px;
-    background: #235EA5;
-    border-color: #235EA5;
-    box-shadow: 0 0 0 .2rem #235EA5;
+    background: #4E73DF;
+    border-color: #4E73DF;
+    box-shadow: 0 0 0 .2rem #4E73DF;
 }
 
 .nav_top .social_links li a {
@@ -156,7 +156,7 @@ h4 {
 } */
 
 #nav_middle_section .logo_area a {
-    color: #235EA5;
+    color: #4E73DF;
     text-decoration: none;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -189,7 +189,7 @@ h4 {
 }
 
 .nav_area .nav_con h6 span {
-    color: #235EA5;
+    color: #4E73DF;
 }
 
 .nav_area .nav_con a {
@@ -209,7 +209,7 @@ h4 {
 
 .nav_area .nav_icon i {
     font-size: 20px;
-    color: #235EA5;
+    color: #4E73DF;
 }
 
 #nav_middle_section .navbar ul a {
@@ -314,7 +314,7 @@ h4 {
 /*---------------------Main nav  Start----------------------*/
 #main_nav {
     background: #F2F3F5;
-    /* background: #235EA5; */
+    /* background: #4E73DF; */
     /* background-color: #32353A; */
     width: 100%;
     position: sticky;
@@ -349,7 +349,8 @@ h4 {
     padding: 8px 25px;
     color: #fff;
     border-radius: 20px;
-    background-color: #235EA5;
+    background-color: #4E73DF;
+    /* background-color: #4E73DF; */
     margin-left: 33px;
 }
 
@@ -363,7 +364,8 @@ h4 {
 
 }
 .nav-logo h1 a{
-    color: #235EA5;
+    color: #4E73DF;
+    /* color: #4E73DF; */
     font-size: 28px;
     font-weight: 600;
 }
@@ -576,7 +578,7 @@ h4 {
 }
 #hints_section .appointment_part .header{
     display: block;
-    background-color: #235EA5;
+    background-color: #4E73DF;
     color: #fff;
     padding: 10px 10px;
 }
@@ -590,7 +592,7 @@ h4 {
     padding: 20px;
 }
 #hints_section strong {
-    color: #235EA5;
+    color: #4E73DF;
     letter-spacing: -1.5px;
 }
 
@@ -614,7 +616,7 @@ h4 {
 }
 
 #hints_section .btn-success {
-    background: #235EA5;
+    background: #4E73DF;
     border-radius: 0 !important;
     border: 0;
     font-family: 'Ubuntu', sans-serif;
@@ -774,7 +776,7 @@ h4 {
 }
 
 .notice h3 strong {
-    color: #235EA5;
+    color: #4E73DF;
     font-weight: 700;
     letter-spacing: 0.5px;
 }
@@ -819,7 +821,7 @@ h4 {
 .notice_area .col-sm-5>a {
     width: inherit;
     display: inline-block;
-    background: #235EA5;
+    background: #4E73DF;
     padding: 7px 0;
     max-height: 100px;
     color: #fff;
@@ -831,7 +833,7 @@ h4 {
 }
 
 .notice_area .col-sm-5>a:hover {
-    background: linear-gradient(#235EA5, #0eb1a9);
+    background: linear-gradient(#4E73DF, #0eb1a9);
     color: #fff;
     transition: .3s;
 }
@@ -883,7 +885,7 @@ h4 {
 
 .section-title.active,
 .section-title:hover {
-    background: #235EA5;
+    background: #4E73DF;
     color: #fff;
 }
 
@@ -926,7 +928,7 @@ h4 {
 }
 .why-us-section h3 strong {
     letter-spacing: -1.5px;
-    color: #235EA5;
+    color: #4E73DF;
 }
 .why-us-section img{
     margin-bottom: 25px;
@@ -948,7 +950,7 @@ h4 {
 
 #short_description {
     width: 100%;
-    background: #235EA5;
+    background: #4E73DF;
     padding: 30px 0;
     color: #FFFBFF;
 }
@@ -978,7 +980,7 @@ h4 {
 
 #short_description .button a {
     background: #fff;
-    color: #235EA5;
+    color: #4E73DF;
     padding: 19px 42px;
     line-height: 130px;
     border-radius: 4px;
@@ -987,7 +989,7 @@ h4 {
 }
 
 #short_description .button a:hover {
-    background: #235EA5;
+    background: #4E73DF;
     ;
     color: #fff;
     transition: .3s;
@@ -1015,7 +1017,7 @@ h4 {
 
 #doctor_meet strong {
     letter-spacing: -1.5px;
-    color: #235EA5;
+    color: #4E73DF;
 }
 
 #doctor_meet p {
@@ -1027,7 +1029,7 @@ h4 {
 #doctor_meet a {
     padding: 15px 23px;
     font-size: 12px;
-    background: #235EA5;
+    background: #4E73DF;
     color: #fff;
     margin-right: 20px;
     font-weight: 505;
@@ -1035,7 +1037,7 @@ h4 {
 }
 
 #doctor_meet a:hover {
-    background: linear-gradient(#235EA5, #235EA5);
+    background: linear-gradient(#4E73DF, #4E73DF);
     color: #fff;
     transition: .3s;
 }
@@ -1098,7 +1100,7 @@ h4 {
 }
 
 .technology_content h3 span {
-    color: #235EA5;
+    color: #4E73DF;
     font-weight: 700;
     letter-spacing: -1.5px;
 }
@@ -1215,7 +1217,7 @@ h4 {
 
 #footer_section {
     width: 100%;
-    background: #235EA5;
+    background: #4E73DF;
     padding: 40px 0 10px 0;
     position: relative;
 }
@@ -1342,18 +1344,18 @@ h4 {
 }
 
 #patient_info h2 span {
-    color: #235EA5;
+    color: #4E73DF;
 }
 
 #patient_info .patient_info_btn {
-    background: #235EA5;
+    background: #4E73DF;
     color: #fff;
     text-transform: uppercase;
     font-weight: bolder;
 }
 
 #patient_info a {
-    color: #235EA5;
+    color: #4E73DF;
     margin-bottom: 10px;
 }
 
@@ -1412,7 +1414,7 @@ h4 {
 }
 
 .contact_form .contact_btn {
-    background: #235EA5;
+    background: #4E73DF;
     font-weight: bolder;
     color: #fff
 }
@@ -1574,7 +1576,7 @@ iframe {
 }
 
 .card .doctor_appointment {
-    background: #235EA5;
+    background: #4E73DF;
     padding: 10px 20px;
     color: #fff;
     text-align: center;
@@ -1620,7 +1622,7 @@ iframe {
     height: 100px;
     background: black;
     border-radius: 50%;
-    border: 2px solid #235EA5;
+    border: 2px solid #4E73DF;
 }
 
 .doctor_image img {
@@ -1630,7 +1632,7 @@ iframe {
 }
 
 i.fa.fa-user-md {
-    background: #235EA5;
+    background: #4E73DF;
     padding: 13px 12px;
     color: #fff;
     position: relative;
@@ -1666,11 +1668,11 @@ i.fa.fa-user-md {
 	color: #000;
 	font-family: 'Source Code Pro', monospace;
 	font-weight: 500;
-	border-right: 4px solid #235EA5;
-	border-left: 4px solid #235EA5;
+	border-right: 4px solid #4E73DF;
+	border-left: 4px solid #4E73DF;
 	border-radius: 5px;
 
-	background: linear-gradient(to left, #235EA5 50%, #5fc5c0 50%) right;
+	background: linear-gradient(to left, #4E73DF 50%, #5fc5c0 50%) right;
 	background-size: 200% 100%;
 	background-position:left bottom;
 	transition: .5s ease-out;
@@ -1686,11 +1688,11 @@ i.fa.fa-user-md {
     padding: 10px 0;
     text-align: center;
     color: #000;
-    border-right: 2px solid #235EA5;
-    border-left: 2px solid #235EA5;
+    border-right: 2px solid #4E73DF;
+    border-left: 2px solid #4E73DF;
     border-radius: 4px;
     background: #eee;
-    background: linear-gradient(to left, #eee 50%, #235EA5 50%) right;
+    background: linear-gradient(to left, #eee 50%, #4E73DF 50%) right;
     background-size: 200%;
     transition: .5s ease-out;
     margin-bottom: 50px;
@@ -1710,12 +1712,12 @@ i.fa.fa-user-md {
 }
 
 .doctors_appointment h3 span {
-    color: #235EA5;
+    color: #4E73DF;
     font-weight: bolder;
 }
 
 .doctors_appointment .submit {
-    background: #235EA5;
+    background: #4E73DF;
     margin-top: 20px;
     color: #fff;
     font-weight: bolder;
@@ -1808,7 +1810,7 @@ i.fa.fa-user-md {
 
 #about_page .about-content .read_more {
     padding: 8px 30px;
-    background: #235EA5;
+    background: #4E73DF;
     outline: none;
     border: none;
     text-align: center;
@@ -1982,7 +1984,7 @@ i.fa.fa-user-md {
 #about_header ul a,
 #doctors_section ul a,
 #contact_header ul a {
-    color: #235EA5;
+    color: #4E73DF;
 }
 
 
@@ -2043,8 +2045,8 @@ i.fa.fa-user-md {
     /* background-color: #4e73df; 
     background-image: linear-gradient(180deg,#4e73df 10%,#224abe 100%);
     background-size: cover; */
-    background-color: #235EA5;
-    background-image: linear-gradient(180deg, #235EA5 10%, #235EA5 100%);
+    background-color: #4E73DF;
+    background-image: linear-gradient(180deg, #4E73DF 10%, #4E73DF 100%);
     background-size: cover;
 }
 
@@ -2069,7 +2071,7 @@ i.fa.fa-user-md {
 .patient_page_image_div img {
     width: 100%;
     height: 100%;
-    background: linear-gradient(#235EA5, #235EA5);
+    background: linear-gradient(#4E73DF, #4E73DF);
     z-index: 10;
 }
 
@@ -2096,7 +2098,7 @@ i.fa.fa-user-md {
 }
 
 #patient_section .view-btn {
-    background: #235EA5;
+    background: #4E73DF;
     color: #fff;
     padding-left: 10px
 }
