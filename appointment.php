@@ -65,8 +65,8 @@ if(isset($_POST['appointment'])){
 								<p class="txt-normal"><?= $result['department']; ?></p>
 								<p class="text text-danger"><?= $result['position']; ?></p>
 								<p class="txt-normal"><strong>Visiting Hour : <?= $result['visiting_hour']; ?> </strong></p>
-								<hr>
-								<p class="txt-normal"><strong>E-mail :</strong> <a href=""> kd@gmail.com </a></p>
+								<!-- <hr>
+								<p class="txt-normal"><strong>E-mail :</strong> <a href=""> kd@gmail.com </a></p> -->
 							</div>
 						</div>
 
@@ -74,16 +74,16 @@ if(isset($_POST['appointment'])){
 					</div>
 
 				</div>
-				<div class="col-sm-7">
+				<div class="col-sm-7 mb-4">
 					<input type="text" style="text-transform:capitalize" value="" name="patient_name" placeholder="Patient Name *" class="form-control">
 
-					<input type="email" style="text-transform:capitalize" value="" name="email" class="form-control" placeholder="Your Email">
+					<input type="email" style="text-transform:capitalize" value="" name="email" class="form-control" placeholder="Email Address">
 
-					<input type="text" style="text-transform:capitalize" value="" name="phone_number" class="form-control" placeholder="Your Mobile No. *">
+					<input type="text" style="text-transform:capitalize" value="" name="phone_number" class="form-control" placeholder="Mobile Number. *">
 
 					<input type="text" style="text-transform:capitalize" value="<?= $result['doctors_name']?>" name="doctor_name" class="form-control" placeholder="Doctor's Name">
 
-					<input type="date" value="" name="number" class="form-control" placeholder="Date *">
+					<input type="date"  value="" name="appointment_date" class="form-control" placeholder="Date *">
 
 					<textarea name="message" id="" cols="30" rows="5" class="form-control" placeholder="Have any message? Please..."></textarea>
 

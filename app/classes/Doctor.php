@@ -7,19 +7,20 @@ use App\database\root\Database;
 class Doctor{
 
 	public function doctor_appointment($data){
+		// print_r($data);
 		$patient_name  = $data['patient_name'];
-		// $email         = $data['email'];
+		$email         = $data['email'];
 		$phone_number  = $data['phone_number'];
 		$doctor_name   = $data['doctor_name'];
 		// $department   = $data['department'];
-		// $message       = $data['message'];
-
+		$appointment_date = $data['appointment_date'];
+		$message       = $data['message'];
 
 
 		if(!empty($patient_name && $phone_number)){
 			$email = 'example@mail.com';
-			$message = 'this is message';
-			$query = "INSERT INTO `doctor_appointment`(`patient_name`,`email`,`phone_number`,`doctor_name`,`message`) VALUES ('$patient_name','$email','$phone_number','$doctor_name','$message')";
+			$message = $message || 'this is message';
+			$query = "INSERT INTO `doctor_appointment`(`patient_name`,`email`,`phone_number`,`doctor_name`,`appointment_date`, `message`) VALUES ('$patient_name','$email','$phone_number','$doctor_name','$appointment_date','$message')";
 
 				//$department
 

@@ -13,7 +13,7 @@ class Registration{
 		$password = $data['password'];
 		$confirm_password = $data['confirm_password'];
 
-		$usercheck = "SELECT * FROM `admin_registration` WHERE `username` = '$username'";
+		$usercheck = "SELECT * FROM `admin` WHERE `username` = '$username'";
 		$userquery = mysqli_query(Database::databaseconn(),$usercheck);
 		$username_check = mysqli_num_rows($userquery);
 

@@ -7,7 +7,7 @@ class Homepage{
 	
 	public function userInfo(){
 		$username = $_SESSION['username'];
-		$query = "SELECT * FROM `admin_registration` WHERE `username`= '$username'";
+		$query = "SELECT * FROM `admin` WHERE `username`= '$username'";
 		$userLink = mysqli_query(Database::databaseconn(),$query);
 		return $userLink;
 	}

@@ -48,7 +48,7 @@ if(isset($_POST['patient_info'])){
 					</form>
 				</div>
 				<div class="col-sm-1"></div>
-				<div class="col-sm-5">
+				<div class="col-sm-5 mb-3">
 					<br>
 					<p style="font-weight:bolder" class="notice"><span class="text-success">Note:</span> You have to insert actual PMM no. and Mobile number that Hospital authority provide you to access or see Patient informaton. Thank You! </p>
 						<p class="text-center" style="margin-top:20px"><span class="text-success">For example </span></p>

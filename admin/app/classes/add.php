@@ -106,7 +106,7 @@ class Add{
 		$end = end($img);
 		$tthree_img = $pmn . 'c' .'.'. $end;
 
-		$query = "INSERT INTO `patient_exam` (`patient_name`, `age`, `sex`,`mobile`,`menu`,`email`, `tone_name`, `tone_result`, `ttwo_name`, `ttwo_result`, `tthree_name`, `tthree_result`, `tone_img`, `ttwo_img`, `tthree_img`) VALUES('$patient_name','$patient_age','$patient_gender','$mobile','$pmn','$email','$tone','$result1','$ttwo','$result2','$tthree','$result3','$tone_img','$ttwo_img','$tthree_img')";
+		$query = "INSERT INTO `patient_exam` (`patient_name`, `age`, `gender`,`mobile`,`menu_no`,`email`, `tone_name`, `tone_result`, `ttwo_name`, `ttwo_result`, `tthree_name`, `tthree_result`, `tone_img`, `ttwo_img`, `tthree_img`) VALUES('$patient_name','$patient_age','$patient_gender','$mobile','$pmn','$email','$tone','$result1','$ttwo','$result2','$tthree','$result3','$tone_img','$ttwo_img','$tthree_img')";
 
 		$data = mysqli_query(Database::databaseconn(), $query);
 

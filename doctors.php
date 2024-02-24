@@ -71,7 +71,7 @@ $doc_info = $add->manage_doctor();
 			</div> -->
   			<?php if(mysqli_num_rows($doc_info) >= 1) { ?>
 			<?php while($doc = mysqli_fetch_assoc($doc_info)){?>
-			<div class="col-sm-8 col-md-8 col-lg-6">
+			<div class="col-sm-8 col-md-8 col-lg-6 mb-4">
 				<div class="doctor_box">
 					<div class="row">
 						<div class="col-sm-3 col-md-3">

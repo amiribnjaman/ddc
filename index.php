@@ -93,7 +93,7 @@ if(isset($_POST['appointment'])){
 		<!-------------------------WHY US with FAQ section Start-------------------------->
 		<section class='row why-us-section'>
 			<!-----------FAQ -->
-			<div class='col-sm mr-4'>
+			<div class='col-sm mr-4 mb-4'>
 				<h3>FAQ's</h3>
 				<img src="./assets/images/border.svg" alt="">
 
@@ -198,7 +198,7 @@ if(isset($_POST['appointment'])){
 
 		<!--------------------Hints section start-------------------------->
 		<section class='row gx-5' id="hints_section">
-			<div class='col-7 tips-section'>
+			<div class='col-sm-7 tips-section mb-4'>
 				<h4 class='text-start'>Tips from Dr. XYZ</h4>
 				<div class='tips-body row'>
 					<div class='col-4'>
@@ -217,16 +217,12 @@ if(isset($_POST['appointment'])){
 					</div>
 				</div>
 			</div>
-			<div class='col-5 appointment_part'>
+			<div class='col-sm-5 appointment_part'>
 				<!-- <h3 class="text-center">Make an <strong>Appointment</strong></h3>
 			<img src="./assets/images/border.svg" alt=""> -->
 
 			<!-- <p class="text-center">Our hospital has a bunch of experienced doctors who are always engaged to served you. And we have been in your yard for almost a decade with the help of those who have become a trusted hospital to serve you. So, You fill out the form below to make a doctor's appointment. </p> -->
-
-			<!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempora dolor facilis voluptates libero. <span> Provident dolore beatae quod exercitationem sequi quas at illum consequatur accusamus, quaerat deleniti, doloribus aspernatur......</span> -->
-			<!-- <div class="full_hints">
-			</div> -->
-				<div class=" " >
+				<div class="col-sm-5 " >
 						<div class="">
 						<h6 class='header'>Make an Appointment</h6>						
 						<form action="" method="POST">

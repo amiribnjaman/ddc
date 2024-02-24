@@ -19,6 +19,7 @@ $_session['timeout'] = time();
 ?>
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,7 +31,7 @@ $_session['timeout'] = time();
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>DDC&GH-Admin Dashboard</title>
+  <title>DDC&GH-Patient Examation</title>
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -70,7 +71,10 @@ $_session['timeout'] = time();
 
       <!-- Nav Item - Dashboard -->
       <li class="nav-item active">
-          <span class="nav-link text-center"><?= $_SESSION['name']; ?></span></a>
+          <span class="nav-link text-center">Name: <?= $_SESSION['name']; ?></span></a>
+          <span class="nav-link text-center">Age: <?= $_SESSION['age']; ?></span></a>
+          <span class="nav-link text-center">Gender: <?= $_SESSION['gender']; ?></span></a>
+          <span class="nav-link text-center">Mobile: <?= $_SESSION['mobile']; ?></span></a>
       </li>
       <!-- Divider -->
       <!-- <hr class="sidebar-divider d-none d-md-block"> -->
@@ -168,6 +172,11 @@ $_session['timeout'] = time();
                 <h1 class="h3 mb-0 text-gray-800">Patient Report</h1>
                 <a href="#"  data-toggle="modal" data-target="#reportModal" class="d-sm-inline-block view-btn btn btn-sm btn shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> View Report</a>
               </div>
+
+              <div class='float-left'>
+              <h4>Name: </h4>
+              
+            </div>
           </div>
 
             <!-- Report Modal-->

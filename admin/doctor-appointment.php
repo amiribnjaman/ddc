@@ -10,7 +10,7 @@ $app_req = $doctor->appointment_request();
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
@@ -36,11 +36,12 @@ $app_req = $doctor->appointment_request();
                       <th>Sl</th>
                       <th>Patient Name</th>
                       <th>Email</th>
-                      <th>Phome No.</th>
+                      <th>Phone No.</th>
                       <th>Dr.Name</th>
                       <!-- <th>Date</th>
                       <th>Month</th>
                       <th>Year</th> -->
+                      <th>Appointment Date</th>
                       <th>Message</th>
                       <th>Action</th>
                     </tr>
@@ -56,8 +57,8 @@ $app_req = $doctor->appointment_request();
 						<td><?= $appointment['email']; ?></td> 
 						<td><?= $appointment['phone_number']; ?></td> 
 						<td><?= $appointment['doctor_name']; ?></td> 
-						<!-- <td><?= $appointment['date']; ?></td> 
-						<td><?= $appointment['month']; ?></td>  -->
+						<td><?= $appointment['appointment_date']; ?></td> 
+						<!-- <td><?= $appointment['month']; ?></td>   -->
 						<td><?= $appointment['message']; ?></td>
 						<td>
 							<a href="index.php?page=appointment-accept&&id=<?= $appointment['id']?>" class="btn btn-info">Accept</a>

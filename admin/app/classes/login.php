@@ -8,10 +8,11 @@ class Login{
 
 	public function userlogin($data){
 		$username = $data['username'];
-		$password = md5($data['password']);
+		// $password = md5($data['password']); 
+		$password = $data['password']; 
 
 		if(!empty($username && $password)){
-			$query = "SELECT * FROM `admin_registration` WHERE `username` = '$username' AND `password` = '$password'";
+			$query = "SELECT * FROM `admin` WHERE `username` = '$username' AND `password` = '$password'";
 			$con = mysqli_query(Database::databaseconn(),$query);
 			$alldata = mysqli_fetch_assoc($con);
 			$check = mysqli_num_rows($con);

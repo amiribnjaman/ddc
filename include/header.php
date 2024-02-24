@@ -127,7 +127,7 @@ $current_page = end($page);
 					<nav class="navbar p-0 navbar-expand-lg navbar-light">
 						<div class="collapse navbar-collapse nav-section" id="navbarTogglerDemo03">
 							<div class='nav-logo'>
-							<h1> <a href="">DDC<span>&GH</span> </a> </h1>
+							<h1> <a href="index">DDC<span>&GH</span> </a> </h1>
 							<span class='tagline'>Serve the Best, Your Nearest.</span>
 						</div>
 						<ul class="navbar-nav mt-2 mt-lg-0">
@@ -154,7 +154,7 @@ $current_page = end($page);
 								<li class="nav-item <?= $current_page== 'contact-us.php' ? 'active':''; ?>">contact us</li>
 							</a>
 							<div class='patient-info-btn'>
-								<a href="patient-info-login" class=" float-right">PATIENT INFO </a>
+								<a href="patient-info-login" class=" ">PATIENT INFO </a>
 							</div>
 							
 						</ul>
