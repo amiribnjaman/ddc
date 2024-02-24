@@ -222,7 +222,7 @@ if(isset($_POST['appointment'])){
 			<img src="./assets/images/border.svg" alt=""> -->
 
 			<!-- <p class="text-center">Our hospital has a bunch of experienced doctors who are always engaged to served you. And we have been in your yard for almost a decade with the help of those who have become a trusted hospital to serve you. So, You fill out the form below to make a doctor's appointment. </p> -->
-				<div class="col-sm-5 " >
+				<div class="" >
 						<div class="">
 						<h6 class='header'>Make an Appointment</h6>						
 						<form action="" method="POST">
