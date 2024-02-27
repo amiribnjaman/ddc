@@ -85,7 +85,7 @@ if(isset($_POST['appointment'])){
 
 					<input type="date"  value="" name="appointment_date" class="form-control" placeholder="Date *">
 
-					<textarea name="message" id="" cols="30" rows="5" class="form-control" placeholder="Have any message? Please..."></textarea>
+					<!-- <textarea name="message" id="" cols="30" rows="5" class="form-control" placeholder="Have any message? Please..."></textarea> -->
 
 					<input type="submit" value="Make an Appointment" name="appointment" class="form-control submit" >
 				</div>

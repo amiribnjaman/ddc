@@ -98,7 +98,7 @@ if(isset($_POST['send_message'])){
 <!--------------------Google map location---------------------------->
 
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.370924807634!2d91.29897481409125!3d22.93656274761789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37535c3082495e6f%3A0x58aad7f1ae385a06!2sDagonbhuiyan%20Diabetic%20Center%20%26%20General%20Hospital!5e0!3m2!1sen!2sbd!4v1618071408108!5m2!1sen!2sbd" width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.370924807634!2d91.29897481409125!3d22.93656274761789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37535c3082495e6f%3A0x58aad7f1ae385a06!2sDagonbhuiyan%20Diabetic%20Center%20%26%20General%20Hospital!5e0!3m2!1sen!2sbd!4v1618071408108!5m2!1sen!2sbd" width="100%" height="300px" style="border:0; margin-bottom: -7px" allowfullscreen="" loading="lazy"></iframe>
 
 <!-- <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=1000&amp;height=400&amp;hl=en&amp;q=dagonbhuiyan diabetic center & general hospital&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.embedmymap.com/">Embed My Map</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div> -->
 

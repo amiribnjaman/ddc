@@ -431,7 +431,8 @@ h4 {
 }
 
 .navbar ul .active {
-    color: #0A598A;
+    /* color: #0A598A; */
+    color: #4E73DF;
     font-weight: bold;
 }
 
@@ -445,7 +446,7 @@ h4 {
 }
 
 #main_nav .active {
-    color: #0A598A;
+    color: #4E73DF;
 }
 
 /* .navbar ul li:hover,
@@ -1967,7 +1968,7 @@ i.fa.fa-user-md {
     padding: 10px 25px;
     border-radius: 5px;
     color: #fff;
-    background: #07837d;
+    background: #4E73DF;
 }
 
 
@@ -2085,7 +2086,7 @@ i.fa.fa-user-md {
 }
 
 #sidebar #sidebarToggle {
-    top: 50%;
+    bottom: 10%;
     position: absolute;
     left: 50%;
     transform: translate(-50%);

@@ -228,14 +228,14 @@ if(isset($_POST['appointment'])){
 						<form action="" method="POST">
 								<?= isset($msg) ?  $msg:'';?>
 								<input type="text" class="form-control" placeholder="Patient Name" name="patient_name">
-								<!-- <input type="email" class="form-control" placeholder="Email" name="email"> -->
+								<input type="email" class="form-control" placeholder="Email" name="email">
 								<input type="text" class="form-control" placeholder="Phone Number" name="phone_number">
-								<input type="date" class="form-control" placeholder="Set date">
+								<input name='appointment_date' type="date" class="form-control" placeholder="Set date">
 								<select name="department" id="" class="form-control">
 									<option value="" class="first_option">Select Department</option>
-									<option value=""></option>
-									<option value=""></option>
-									<option value=""></option>
+									<option value="gynecology">Gynecology</option>
+									<option value="gastology">Gastology</option>
+									<option value="cardiology">Cardiology</option>
 								</select>
 								<select name="doctor_name" id="" class="form-control">
 									<option value="" class="first_option">Select Doctor </option>
@@ -243,7 +243,6 @@ if(isset($_POST['appointment'])){
 									<option value="<?= $doc['doctors_name'];?>"><?= $doc['doctors_name'];?></option>
 									<?php } ?>
 								</select>
-								<!-- <textarea name="message" id="" cols="" rows="4" class="form-control" placeholder="Have you any message? Please!"></textarea> -->
 								<input type="submit" class="btn btn-success form-control" name="appointment" value="Make an Appointment">
 							</form>
 						</div>

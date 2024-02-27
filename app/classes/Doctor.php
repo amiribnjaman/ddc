@@ -12,9 +12,12 @@ class Doctor{
 		$email         = $data['email'];
 		$phone_number  = $data['phone_number'];
 		$doctor_name   = $data['doctor_name'];
-		// $department   = $data['department'];
+		$department   = $data['department'];
 		$appointment_date = $data['appointment_date'];
-		$message       = $data['message'];
+		// $message       = $data['message'];
+		$message       = '';
+
+		
 
 
 		if(!empty($patient_name && $phone_number)){
